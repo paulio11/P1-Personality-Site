@@ -2,3 +2,26 @@
     margin: 0;
     padding: 0;
 }
+
+/* header and navigation */
+
+header {
+    background-color: grey;
+    width: 100%;
+    height: 40px;
+}
+
+#top-menu {
+    float: right;
+    vertical-align: middle;
+}
+
+#top-menu li {
+    display: inline;
+}
+
+#top-menu a {
+    text-decoration: none;
+    /* temporary color, change later */
+    color: black;
+}
