@@ -13,6 +13,12 @@ p {
     font-size: 110%;
 }
 
+h2 {
+    font-family: "Secular One", sans-serif;
+    font-size: 250%;
+    padding: 30px 10% 30px 10%;
+}
+
 /* header and navigation */
 
 header {
@@ -56,23 +62,34 @@ header a:hover {
 #intro {
     /* background-color: darkgray; */
     float: left;
-    width: 40%;
+    width: 50%;
 }
 
 #intro h1 {
     font-family: "Secular One", sans-serif;
     font-size: 500%;
-    padding: 60px 0 30px 10%;
+    padding: 60px 10% 30px 10%;
+}
+
+#title-image {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
 }
 
 #intro p {
     padding: 0 10%;
 }
 
-#hightlights {
+#highlights {
     float: right;
+    width: 50%;
 }
 
-#hightlights video {
-    width: 60%;
+#highlights video {
+    width: 100%;
+}
+
+#social-card {
+    background: blue;
 }
