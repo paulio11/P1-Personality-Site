@@ -13,10 +13,13 @@ p {
     font-size: 110%;
 }
 
+.clear {
+    clear: both;
+}
+
 h2 {
     font-family: "Secular One", sans-serif;
     font-size: 250%;
-    padding: 30px 10% 30px 10%;
 }
 
 /* header and navigation */
@@ -77,6 +80,10 @@ header a:hover {
     margin-top: 60px;
 } */
 
+#intro h2 {
+    padding: 30px 10% 30px 10%;
+}
+
 #intro p {
     padding: 0 10%;
 }
@@ -91,8 +98,13 @@ header a:hover {
 }
 
 .social-card {
-    background: blue;
-    color: white;
     width: 25%;
     display: inline-block;
+    text-align: center;
+}
+
+/* section 2 styles */
+
+#schedule-section {
+    background-color: chocolate;
 }
