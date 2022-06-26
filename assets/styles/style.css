@@ -1,6 +1,6 @@
 /* google font import */
 
-@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Russo+One&family=Titan+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Secular+One&display=swap');
 
 * {
     margin: 0;
@@ -48,12 +48,16 @@ header a:hover {
 /* section 1 styles */
 
 #intro {
-    width: 100%;
+    /* width: 100%; */
+    float: left;
     background-color: darkgray;
 }
 
 h1 {
-    font-family: "Titan One", sans-serif;
+    font-family: "Secular One", sans-serif;
     font-size: 500%;
 }
 
+#highlights {
+    float: right;
+}
