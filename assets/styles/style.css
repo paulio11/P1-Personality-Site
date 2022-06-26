@@ -1,6 +1,6 @@
 /* google font import */
 
-@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Russo+One&family=Titan+One&display=swap');
 
 * {
     margin: 0;
@@ -15,6 +15,7 @@ header {
     height: 60px;
     font-family: Kanit, sans-serif;
     font-size: 1.5rem;
+    color: white;
 }
 
 #top-menu,
@@ -43,3 +44,16 @@ header a {
 header a:hover {
     text-decoration: underline;
 }
+
+/* section 1 styles */
+
+#intro {
+    width: 100%;
+    background-color: darkgray;
+}
+
+h1 {
+    font-family: "Titan One", sans-serif;
+    font-size: 500%;
+}
+
