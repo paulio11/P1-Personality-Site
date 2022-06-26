@@ -54,12 +54,11 @@ h1 {
 
 #intro {
     /* width: 100%; */
-    float: left;
     background-color: darkgray;
 }
 
 #intro p {
-    width: 40%;
+
 }
 
 #highlights {
