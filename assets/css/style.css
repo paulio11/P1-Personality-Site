@@ -60,7 +60,6 @@ header a:hover {
 /* section 1 styles */
 
 #intro {
-    /* background-color: darkgray; */
     float: left;
     width: 50%;
 }
@@ -71,11 +70,12 @@ header a:hover {
     padding: 60px 10% 30px 10%;
 }
 
-#title-image {
-    height: 200px;
-    width: 200px;
+/* #title-image {
+    height: 150px;
+    width: 150px;
     border-radius: 50%;
-}
+    margin-top: 60px;
+} */
 
 #intro p {
     padding: 0 10%;
@@ -90,6 +90,9 @@ header a:hover {
     width: 100%;
 }
 
-#social-card {
+.social-card {
     background: blue;
+    color: white;
+    width: 25%;
+    display: inline-block;
 }
