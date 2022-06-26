@@ -1,10 +1,16 @@
 /* google font import */
 
-@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Lato&family=Secular+One&display=swap');
 
 * {
     margin: 0;
     padding: 0;
+}
+
+p {
+    font-family: Lato, sans-serif;
+    line-height: 1.8;
+    font-size: 110%;
 }
 
 /* header and navigation */
@@ -47,20 +53,26 @@ header a:hover {
 
 /* section 1 styles */
 
-h1 {
-    font-family: "Secular One", sans-serif;
-    font-size: 500%;
+#intro {
+    /* background-color: darkgray; */
+    float: left;
+    width: 40%;
 }
 
-#intro {
-    /* width: 100%; */
-    background-color: darkgray;
+#intro h1 {
+    font-family: "Secular One", sans-serif;
+    font-size: 500%;
+    padding: 60px 0 30px 10%;
 }
 
 #intro p {
-
+    padding: 0 10%;
 }
 
-#highlights {
+#hightlights {
     float: right;
+}
+
+#hightlights video {
+    width: 60%;
 }
