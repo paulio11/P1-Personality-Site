@@ -31,12 +31,13 @@ h1 {
     text-transform: uppercase;
 }
 
-h2, h3 {
+h2,
+h3 {
     font-family: var(--ff-headings);
 }
 
 h2 {
-    font-size: 280%;    
+    font-size: 280%;
 }
 
 /* header styles */
@@ -81,7 +82,7 @@ header {
 .title-and-intro {
     grid-area: title-and-intro;
     place-self: center;
-    padding: 10% 10% 0 10%;
+    padding: 10% 5% 0 10%;
 }
 
 .title-and-intro p {
@@ -95,7 +96,7 @@ header {
 .highlights {
     grid-area: highlights;
     place-self: center;
-    padding: 10%;
+    padding: 10% 10% 10% 5%;
 }
 
 .highlights video {
@@ -112,11 +113,13 @@ header {
 .social-box {
     grid-area: social-box;
     place-self: center;
+    margin-bottom: 80px;
 }
 
 .social-box h2 {
     text-align: center;
-    padding-bottom: 30px;
+    padding: 0 30px;
+    margin-bottom: 30px;
 }
 
 .social-links {
@@ -140,4 +143,35 @@ header {
 #delayed-input {
     background-color: steelblue;
     height: 1000px;
+}
+
+/* media queries */
+
+/* re-organise introduction grid at lower resolution */
+@media screen and (max-width: 1432px) {
+    #page-introduction {
+        grid-template-rows: 70% 30%;
+        grid-template-areas:
+            "title-and-intro highlights"
+            "social-box social-box";
+    }
+    h1 {
+        font-size: 450%;
+    }
+}
+
+/* change introduction grid layout to block on smaller devicies, fix padding and center h1 */
+@media screen and (max-width: 1000px) {
+    #page-introduction {
+        display: block;
+    }
+    h1 {
+        text-align: center;
+    }
+    .title-and-intro {
+        padding: 10% 10% 0 10%;
+    }
+    .highlights {
+        padding: 10%;
+    }
 }
