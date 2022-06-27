@@ -118,8 +118,7 @@ header {
 
 .social-box h2 {
     text-align: center;
-    padding: 0 30px;
-    margin-bottom: 30px;
+    margin: 20px 30px 30px 30px;
 }
 
 .social-links {
@@ -147,6 +146,8 @@ header {
 
 /* media queries */
 
+/* min width of >548, <768, <992 */
+
 /* re-organise introduction grid at lower resolution */
 @media screen and (max-width: 1432px) {
     #page-introduction {
@@ -173,5 +174,12 @@ header {
     }
     .highlights {
         padding: 10%;
+    }
+}
+
+/* changes the way the top nav menu displays before it wraps */
+@media screen and (max-width: 784px) {
+    .nav-menu {
+        justify-content: center;
     }
 }
