@@ -1,6 +1,6 @@
 /* google fonts import */
 
-
+@import url('https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@400;700&family=Fredoka+One&family=Kanit&family=Staatliches&display=swap');
 
 /* apply to all */
 *,
@@ -14,26 +14,29 @@
 
 /* variables */
 :root {
-    --ff-body: ;
-    --ff-heading: ;
+    --ff-header: Staatliches, sans-serif;
+    --ff-h1: "Fredoka One", sans-serif;
+    --ff-headings: Kanit, sans-serif;
+    --ff-body: "Anek Malayalam", sans-serif;
 }
 
 body {
     font-family: var(--ff-body);
 }
 
-h1, h2 {
-    font-family: var(--ff-heading);
-}
-
 h1 {
+    font-family: var(--ff-h1);
     font-size: 500%;
     font-weight: 700;
     text-transform: uppercase;
 }
 
+h2, h3 {
+    font-family: var(--ff-headings);
+}
+
 h2 {
-    font-size: 120%;    
+    font-size: 280%;    
 }
 
 /* header styles */
@@ -41,6 +44,7 @@ h2 {
 header {
     background-color: #6e3db8;
     font-size: 1.25rem;
+    font-family: var(--ff-header);
     color: white;
 }
 
@@ -81,7 +85,7 @@ header {
 }
 
 .title-and-intro p {
-    line-height: 2;
+    line-height: 1.5;
     font-size: 120%;
     margin-top: 50px;
 }
@@ -112,6 +116,7 @@ header {
 
 .social-box h2 {
     text-align: center;
+    padding-bottom: 30px;
 }
 
 .social-links {
@@ -123,11 +128,11 @@ header {
 
 .social-links li {
     list-style: none;
-    padding: 0 20px;
+    padding: 0 10px 20px 10px;
 }
 
 .social-links img {
-    height: 30px;
+    width: 150px;
 }
 
 /* delayed input */
