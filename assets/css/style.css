@@ -1,3 +1,7 @@
+/* google fonts import */
+
+
+
 /* apply to all */
 *,
 *::before,
@@ -5,28 +9,44 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    /* outline: 1px solid red; */
 }
 
 /* variables */
 :root {
-    --ff-body: sans-serif;
-    --ff-heading: sans-serif
+    --ff-body: ;
+    --ff-heading: ;
 }
 
 body {
     font-family: var(--ff-body);
 }
 
+h1, h2 {
+    font-family: var(--ff-heading);
+}
+
+h1 {
+    font-size: 500%;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 120%;    
+}
+
 /* header styles */
 
 header {
-    background-color: black;
+    background-color: #6e3db8;
+    font-size: 1.25rem;
+    color: white;
 }
 
 .nav-menu {
     display: flex;
     flex-wrap: wrap;
-    list-style: none;
 }
 
 .nav-menu a {
@@ -35,14 +55,15 @@ header {
 }
 
 .nav-menu li {
-    padding: 10px;
+    list-style: none;
+    padding: 10px 30px 10px 10px;
 }
 
 .nav-menu a:hover {
     text-decoration: underline;
 }
 
-/* introduction styles */
+/* introduction  */
 
 #page-introduction {
     display: grid;
@@ -56,8 +77,16 @@ header {
 .title-and-intro {
     grid-area: title-and-intro;
     place-self: center;
-    padding: 10%;
+    padding: 10% 10% 0 10%;
 }
+
+.title-and-intro p {
+    line-height: 2;
+    font-size: 120%;
+    margin-top: 50px;
+}
+
+/* highlights video */
 
 .highlights {
     grid-area: highlights;
@@ -74,22 +103,36 @@ header {
     text-align: center;
 }
 
+/* social info */
+
 .social-box {
     grid-area: social-box;
     place-self: center;
-    padding: 10%;
+}
+
+.social-box h2 {
+    text-align: center;
 }
 
 .social-links {
     display: flex;
     flex-wrap: wrap;
-    flex-grow: 1;
+    flex: 1;
+    justify-content: center;
 }
 
 .social-links li {
     list-style: none;
+    padding: 0 20px;
 }
 
 .social-links img {
-    height: 40px;
+    height: 30px;
+}
+
+/* delayed input */
+
+#delayed-input {
+    background-color: steelblue;
+    height: 1000px;
 }
