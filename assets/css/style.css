@@ -1,152 +1,95 @@
-/* google font import */
-
-@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Lato&family=Secular+One&display=swap');
-
-* {
+/* apply to all */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-p {
-    font-family: Lato, sans-serif;
-    line-height: 1.8;
-    font-size: 110%;
+/* variables */
+:root {
+    --ff-body: sans-serif;
+    --ff-heading: sans-serif
 }
 
-h2 {
-    font-family: "Secular One", sans-serif;
-    font-size: 250%;
+body {
+    font-family: var(--ff-body);
 }
 
-/* header and navigation */
+/* header styles */
 
 header {
-    background-color: #6e3db8;
-    width: 100%;
-    height: 60px;
-    font-family: Kanit, sans-serif;
-    font-size: 1.5rem;
-    color: white;
+    background-color: black;
 }
 
-#top-menu,
-#watch-live-link {
-    margin: 8px 15px;
+.nav-menu {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
 }
 
-#top-menu {
-    float: left;
-}
-
-#watch-live-link {
-    float: right;
-}
-
-header li {
-    display: inline;
-    margin-right: 25px;
-}
-
-header a {
+.nav-menu a {
     text-decoration: none;
     color: white;
 }
 
-header a:hover {
+.nav-menu li {
+    padding: 10px;
+}
+
+.nav-menu a:hover {
     text-decoration: underline;
 }
 
-/* intro section */
+/* introduction styles */
 
-#intro-left {
-    float: left;
-    width: 50%;
-    position: relative;
+#page-introduction {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+        "title-and-intro highlights"
+        "social-box highlights";
 }
 
-#intro-left h1 {
-    font-family: "Secular One", sans-serif;
-    font-size: 500%;
-    margin: 120px 10% 30px 10%;
-    display: inline-block;
+.title-and-intro {
+    grid-area: title-and-intro;
+    place-self: center;
+    padding: 10%;
 }
 
-#title-image {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    position: absolute;
-    top: 10%;
-    right: 10%;
+.highlights {
+    grid-area: highlights;
+    place-self: center;
+    padding: 10%;
 }
 
-#intro-left p {
-    margin: 0 10%;
-}
-
-#intro-right {
-    float: right;
-    width: 50%;
-    text-align: center;
-}
-
-#intro-right video {
-    width: 80%;
-    margin: 120px 0;
+.highlights video {
+    width: 100%;
     border-radius: 15px;
 }
 
-#intro-left h2 {
-    margin: 60px 0 30px 10%;
-}
-
-#social-cards {
+.video-credit {
     text-align: center;
 }
 
-#social-cards li {
-    display: inline;
+.social-box {
+    grid-area: social-box;
+    place-self: center;
+    padding: 10%;
 }
 
-#social-cards img {
-    height: 30px;
-    padding: 0 3% 30px 0;
+.social-links {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
 }
 
-/* games i'm playing section */
-
-#games {
-    background-color: #6e6e6e;
-    width: 100%;
-    height: 1000px;
-    clear: both;
+.social-links li {
+    list-style: none;
 }
 
-#games h2 {
-    margin-left: 5%;
-    padding: 60px 0;
-    color: white;
-}
-
-#game-list {
-    text-align: center;
-}
-
-.game-card {
-    text-align: center;
-    margin: auto;
-    width: 15%;
-    display: inline-block;
-    padding-right: 20px;
-}
-
-.game-card img {
-    width: 100%;
-    border: 4px solid #6e3db8;
-}
-
-.game-card h3 {
-    color: white;
-    font-family: Kanit, sans-serif;
-    font-size: 150%;
+.social-links img {
+    height: 40px;
 }
