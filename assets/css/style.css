@@ -144,6 +144,11 @@ header {
 #delayed-input {
     background-color: #BCA3E0;
     height: 1000px;
+    background: url("../images/delayedinput.gif") no-repeat center;
+    /* background-position: center;
+    background-repeat: no-repeat; */
+    background-size: cover;
+
 }
 
 /* media queries */
