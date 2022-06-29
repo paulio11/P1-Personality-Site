@@ -3,9 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@400;700&family=Fredoka+One&family=Kanit&family=Staatliches&display=swap');
 
 /* apply to all */
-*,
-*::before,
-*::after {
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -40,6 +38,11 @@ h3 {
 
 h2 {
     font-size: 280%;
+}
+
+p {
+    line-height: 1.5;
+    font-size: 120%;
 }
 
 /* header styles */
@@ -88,8 +91,6 @@ header {
 }
 
 .title-and-intro p {
-    line-height: 1.5;
-    font-size: 120%;
     margin-top: 50px;
 }
 
@@ -142,13 +143,37 @@ header {
 /* delayed input */
 
 #delayed-input {
-    background-color: #BCA3E0;
     height: 1000px;
-    background: url("../images/delayedinput.gif") no-repeat center;
-    /* background-position: center;
-    background-repeat: no-repeat; */
+    background: url("../images/delayed-input.gif") no-repeat center;
     background-size: cover;
+}
 
+.colored-layer {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(127, 17, 224, 0.8);
+    /* border: 5px solid white;
+    border-radius: 15px; */
+    margin: auto;
+}
+
+#delayed-input h2 {
+    color: white;
+    padding: 5%;
+    text-shadow: black 2px 2px;
+}
+
+#delayed-input p {
+    color: white;
+    width: 50%;
+    padding-left: 5%;
+    text-shadow: black 2px 2px;
+    float: left;
+}
+
+#delayed-input-video {
+    float: right;
+    padding-right: 5%;
 }
 
 /* media queries */
@@ -163,9 +188,11 @@ header {
             "title-and-intro highlights"
             "social-box social-box";
     }
+
     .title-and-intro {
         padding: 0 5% 0 10%;
     }
+
     h1 {
         font-size: 400%;
     }
@@ -176,12 +203,15 @@ header {
     #page-introduction {
         display: block;
     }
+
     h1 {
         text-align: center;
     }
+
     .title-and-intro {
         padding: 10% 10% 0 10%;
     }
+
     .highlights {
         padding: 10%;
     }
