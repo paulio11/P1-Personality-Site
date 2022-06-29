@@ -156,12 +156,15 @@ header {
 /* min width of >548, <768, <992 */
 
 /* re-organise introduction grid at lower resolution */
-@media screen and (max-width: 1432px) {
+@media (max-width: 1432px) {
     #page-introduction {
         grid-template-rows: 70% 30%;
         grid-template-areas:
             "title-and-intro highlights"
             "social-box social-box";
+    }
+    .title-and-intro {
+        padding: 0 5% 0 10%;
     }
     h1 {
         font-size: 400%;
@@ -169,7 +172,7 @@ header {
 }
 
 /* change introduction grid layout to block on smaller devicies, fix padding and center h1 */
-@media screen and (max-width: 1000px) {
+@media (max-width: 1000px) {
     #page-introduction {
         display: block;
     }
@@ -185,7 +188,7 @@ header {
 }
 
 /* changes the way the top nav menu displays before it wraps */
-@media screen and (max-width: 784px) {
+@media (max-width: 784px) {
     .nav-menu {
         justify-content: center;
     }
