@@ -1,0 +1,99 @@
+/* google fonts import */
+
+@import url('https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@400;700&family=Fredoka+One&family=Kanit&family=Staatliches&display=swap');
+
+/* styles to apply to all */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 1px solid red;
+}
+
+/* variables */
+
+:root {
+    --ff-header-menu: Staatliches, sans-serif;
+    --ff-h1h2: "Fredoka One", sans-serif;
+    --ff-body: "Anek Malayalam", sans-serif;
+    --padding: 2.5%;
+}
+
+/* main styles */
+
+section {
+    padding: 5%;
+}
+
+h1 {
+    font-family: var(--ff-h1h2);
+    text-transform: uppercase;
+    text-shadow: #6e3db8 2px 2px;
+    font-size: 3rem;
+    text-align: center;
+    padding: var(--padding);
+}
+
+h2 {
+    font-family: var(--ff-h1h2);
+    text-transform: uppercase;
+    padding: var(--padding);
+    font-size: 2rem;
+}
+
+p {
+    font-family: var(--ff-body);
+    line-height: 2;
+    padding: var(--padding);
+}
+
+/* header */
+
+header {
+    background-color: #6e3db8;
+    font-size: 1.25rem;
+    font-family: var(--ff-header-menu);
+    color: white;
+}
+
+#header-menu {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#header-menu li {
+    list-style: none;
+    padding: 0.5rem;
+}
+
+#header-menu a {
+    text-decoration: none;
+    color: white;
+}
+
+#header-menu a:hover {
+    text-decoration: underline;
+}
+
+.active-header-menu-item {
+    color: #4a208a !important;
+}
+
+/* introduction section */
+
+.highlights-video-container {
+    text-align: center;
+    padding: var(--padding);
+}
+
+video {
+    border-radius: 15px;
+    width: 100%;
+}
+
+/* delayed input section */
+
+#delayed-input {
+    background-color: #6e3db8;
+}
