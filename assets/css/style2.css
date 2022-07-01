@@ -1,3 +1,5 @@
+/* default styles built for a mobile first view (min 300px) */
+
 /* google fonts import */
 
 @import url('https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@400;700&family=Fredoka+One&family=Kanit&family=Staatliches&display=swap');
@@ -8,24 +10,20 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    outline: 1px solid red;
+    outline: 1px dotted red;
 }
 
 /* variables */
 
 :root {
     --ff-header-menu: Staatliches, sans-serif;
-    --ff-h1h2: "Fredoka One", sans-serif; 
+    --ff-h1h2: "Fredoka One", sans-serif;
     --ff-h3: Kanit, sans-serif;
     --ff-body: "Anek Malayalam", sans-serif;
     --padding: 2.5%;
 }
 
 /* main styles */
-
-/* section {
-    padding: 5%;
-} */
 
 h1 {
     font-family: var(--ff-h1h2);
@@ -41,6 +39,8 @@ h2 {
     text-transform: uppercase;
     padding: var(--padding);
     font-size: 2rem;
+    text-shadow: #6e3db8 2px 2px;
+    text-align: center;
 }
 
 h3 {
@@ -116,7 +116,8 @@ video {
 }
 
 .transparent-color-layer {
-    background-color: rgba(127, 17, 224, 0.8);
+    /* background-color: rgba(127, 17, 224, 0.8); */
+    background-color: rgba(59, 138, 185, 0.8);
     padding: 5%;
 }
 
@@ -138,7 +139,7 @@ video {
     text-align: center;
     border-radius: 15px;
     width: 80%;
-    margin: 0.5rem auto ;
+    margin: 0.5rem auto;
 }
 
 .twitch-day {
