@@ -41,7 +41,8 @@ h1 {
 
 h2 {
     font-family: var(--ff-h1h2);
-    font-size: 2rem;
+    /* font-size: 2rem; */
+    font-size: 10vw;
     text-shadow: #6e3db8 2px 2px;
 }
 
