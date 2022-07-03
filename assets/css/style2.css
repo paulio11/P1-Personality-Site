@@ -179,9 +179,35 @@ video {
     border: #cc0000 solid 5px;
 }
 
-/* games im playing section */
+/* games ive streamed section */
 
-#games-im-playing {
+#games-ive-streamed {
     background-color: burlywood;
     padding: 5%;
+}
+
+#game-list {
+    padding: var(--padding);
+}
+
+.game-card {
+    margin-bottom: var(--padding);
+}
+
+.game-card h3 {
+    background-color: black;
+    color: white;
+    border-radius: 15px 15px 0 0;
+}
+
+.game-card i {
+    color: #cc0000;
+    margin-right: 0.5rem;
+}
+
+.game-card img {
+    width: 100%;
+    border-left: black solid 5px;
+    border-right: black solid 5px;
+    border-bottom: black solid 5px;
 }
