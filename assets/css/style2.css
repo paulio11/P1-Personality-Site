@@ -297,3 +297,30 @@ footer i {
 #social-menu a:hover {
     text-decoration: underline;
 }
+
+@media screen and (min-width: 1100px) {
+    #introduction {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-areas:
+            "title title"
+            "intro-text intro-video";
+    }
+
+    h1 {
+        grid-area: title;
+    }
+
+    .intro-text {
+        grid-area: intro-text;
+    }
+
+    .highlights-video-container {
+        grid-area: intro-video;
+        place-self: center;
+    }
+
+    .caption {
+        font-size: 1rem;
+    }
+}
