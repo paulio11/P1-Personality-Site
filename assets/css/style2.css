@@ -53,6 +53,7 @@ p {
     font-family: var(--ff-body);
     line-height: 2;
     padding: var(--padding);
+    margin: var(--padding);
 }
 
 a {
@@ -163,12 +164,16 @@ video {
 
 .schedule-card-container {
     padding: var(--padding);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
 }
 
 .schedule-card {
     text-align: center;
     border-radius: 15px;
     margin: 0.5rem auto;
+    max-width: 380px;
 }
 
 .schedule-card img {
@@ -193,10 +198,14 @@ video {
 
 #game-list {
     padding: var(--padding);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
 }
 
 .game-card {
-    margin-bottom: var(--padding);
+    margin: 0 auto var(--padding) auto;
+    max-width: 380px;
 }
 
 .game-card h3 {
