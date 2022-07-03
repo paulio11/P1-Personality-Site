@@ -55,6 +55,10 @@ p {
     padding: var(--padding);
 }
 
+a {
+    color: inherit;
+}
+
 /* header */
 
 header {
@@ -197,12 +201,20 @@ video {
 
 .game-card h3 {
     background-color: black;
-    color: white;
     border-radius: 15px 15px 0 0;
 }
 
 .game-card i {
     color: #cc0000;
+}
+
+.game-card a {
+    text-decoration: none;
+    color: white;
+}
+
+.game-card a:hover {
+    text-decoration: underline;
 }
 
 .game-card img {
