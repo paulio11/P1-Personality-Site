@@ -16,7 +16,7 @@
 /* variables */
 
 :root {
-    --ff-header-menu: Staatliches, sans-serif;
+    --ff-menu: Staatliches, sans-serif;
     --ff-h1h2: "Fredoka One", sans-serif;
     --ff-h3: Kanit, sans-serif;
     --ff-body: "Anek Malayalam", sans-serif;
@@ -60,30 +60,30 @@ p {
 header {
     background-color: #6e3db8;
     font-size: 1.25rem;
-    font-family: var(--ff-header-menu);
+    font-family: var(--ff-menu);
     color: white;
 }
 
-#header-menu {
+#nav-menu {
     display: flex;
     flex-wrap: wrap;
 }
 
-#header-menu li {
+#nav-menu li {
     list-style: none;
     padding: 0.5rem;
 }
 
-#header-menu a {
+#nav-menu a {
     text-decoration: none;
     color: white;
 }
 
-#header-menu a:hover {
+#nav-menu a:hover {
     text-decoration: underline;
 }
 
-.active-header-menu-item {
+.active-nav-menu-item {
     color: #4a208a !important;
 }
 
@@ -183,7 +183,7 @@ video {
 /* games ive streamed section */
 
 #games-ive-streamed {
-    background-color: burlywood;
+    background-color: #be99fd;
     padding: 5%;
 }
 
@@ -232,8 +232,33 @@ td:nth-of-type(2) {
     text-align: right;
 }
 
-/* footer styles */
+/* footer */
 
 footer {
     border-top: solid black 2px;
+}
+
+footer i {
+    margin-right: 5px;
+}
+
+#social-menu {
+    font-family: var(--ff-menu);
+    display: flex;
+    justify-content: right;
+    text-align: center;
+}
+
+#social-menu li {
+    list-style: none;
+    padding: 0.5rem;
+}
+
+#social-menu a {
+    text-decoration: none;
+    color: black;
+}
+
+#social-menu a:hover {
+    text-decoration: underline;
 }
