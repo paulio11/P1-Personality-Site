@@ -10,7 +10,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    outline: 1px dotted red;
+    /* outline: 1px dotted red; */
 }
 
 /* variables */
@@ -25,7 +25,9 @@
 
 /* main text styles */
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     text-transform: uppercase;
     text-align: center;
     padding: var(--padding);
@@ -115,7 +117,6 @@ video {
 }
 
 .transparent-color-layer {
-    /* background-color: rgba(127, 17, 224, 0.8); */
     background-color: rgba(59, 138, 185, 0.8);
     padding: 5%;
 }
@@ -202,12 +203,37 @@ video {
 
 .game-card i {
     color: #cc0000;
-    margin-right: 0.5rem;
 }
 
 .game-card img {
     width: 100%;
     border-left: black solid 5px;
     border-right: black solid 5px;
-    border-bottom: black solid 5px;
+}
+
+table {
+    margin: -5px auto 0 auto;
+    font-family: var(--ff-body);
+    color: white;
+    background-color: black;
+    padding: 10px;
+    width: 100%;
+    border-radius: 0 0 15px 15px;
+}
+
+/* left aligning left column, and right aligning right column */
+
+th:nth-of-type(1) {
+    text-align: left;
+}
+
+th:nth-of-type(2),
+td:nth-of-type(2) {
+    text-align: right;
+}
+
+/* footer styles */
+
+footer {
+    border-top: solid black 2px;
 }
