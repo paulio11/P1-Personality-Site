@@ -36,18 +36,19 @@ h3 {
 h1 {
     font-family: var(--ff-h1h2);
     text-shadow: #6e3db8 2px 2px;
-    font-size: 3rem;
+    /* font-size: 3rem; */
+    font-size: clamp(3.5rem, 6vw, 6rem);
 }
 
 h2 {
     font-family: var(--ff-h1h2);
-    /* font-size: 2rem; */
-    font-size: 10vw;
+    font-size: clamp(2rem, 4vw, 4rem);
     text-shadow: #6e3db8 2px 2px;
 }
 
 h3 {
     font-family: var(--ff-h3);
+    font-size: clamp(1.5rem, 3vw, 3rem);
 }
 
 p {
@@ -55,6 +56,8 @@ p {
     line-height: 2;
     padding: var(--padding);
     margin: var(--padding);
+    /* font-size: 2vw; */
+    font-size: clamp(1rem, 2vw, 2rem);
 }
 
 a {
@@ -105,7 +108,7 @@ header {
 }
 
 video {
-    border-radius: 15px;
+    /* border-radius: 15px; */
     width: 100%;
 }
 
@@ -146,7 +149,7 @@ video {
     height: 0;
     overflow: hidden;
     max-width: 100%;
-    border-radius: 15px;
+    /* border-radius: 15px; */
 }
 
 .embed-container iframe {
@@ -212,6 +215,7 @@ video {
 .game-card h3 {
     background-color: black;
     border-radius: 15px 15px 0 0;
+    font-size: 1.5rem;
 }
 
 .game-card i {
@@ -260,14 +264,23 @@ footer {
     border-top: solid black 2px;
 }
 
+.copywrite-text {
+    font-size: 1rem;
+    line-height: 1;
+    margin: 0;
+    padding: 0.5rem;
+    display: inline;
+    float: left;
+}
+
 footer i {
     margin-right: 5px;
 }
 
 #social-menu {
     font-family: var(--ff-menu);
-    display: flex;
-    justify-content: right;
+    display: inline-flex;
+    float: right;
     text-align: center;
 }
 
