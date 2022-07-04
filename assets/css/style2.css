@@ -202,20 +202,28 @@ video {
     text-shadow: black 1px 1px;
 }
 
-#games-ive-streamed>img {
+#game-list-2 {
     display: none;
 }
 
-#game-list {
+.game-list {
     padding: var(--padding);
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
 }
 
+.bigger-game-list {
+    display: none !important;
+}
+
 .game-card {
     margin: 0 auto var(--padding) auto;
     max-width: 380px;
+}
+
+#game-list-1 .game-card:nth-of-type(n+5) {
+    display: none;
 }
 
 .game-card h3 {
@@ -364,34 +372,53 @@ footer i {
     }
 }
 
+@media screen and (min-width: 1371px) {
+
+    #game-list-1 .game-card:nth-of-type(n+5) {
+        display: block;
+    }
+
+}
+
 @media screen and (min-width: 1834px) {
+
     #games-ive-streamed {
         display: grid;
         grid-template-columns: 40% 60%;
         grid-template-areas:
             "title title"
             "text gamecards"
-            "gamepad gamecards";
+            "morecards morecards";
     }
 
     h2 {
         grid-area: title;
     }
 
-    #game-list {
+    #game-list-1 {
         grid-area: gamecards;
     }
 
-    #gis-text {
+    #game-list-2 {
+        display: flex;
+        grid-area: morecards;
+        padding: calc(var(--padding)/2);
+    }
+
+    .gis-text {
         grid-area: text;
     }
 
-    #games-ive-streamed>img {
-        width: 90%;
-        grid-area: gamepad;
-        border-radius: 15px;
-        display: inline;
-        margin: var(--padding);
-        border: solid black 5px;
+    #game-list-1 .game-card {
+        max-width: 32%;
     }
+
+    #game-list-2 .game-card {
+        max-width: 19%;
+    }
+
+    #game-list-1 .game-card:nth-of-type(n+4) {
+        display: none;
+    }
+
 }
