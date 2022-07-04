@@ -1,194 +1,152 @@
+/* default styles built for a mobile first view (min 300px) */
+
 /* google fonts import */
 
 @import url('https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@400;700&family=Fredoka+One&family=Kanit&family=Staatliches&display=swap');
 
-/* apply to all */
+/* styles to apply to all */
+
 * {
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    /* outline: 1px solid red; */
+    box-sizing: border-box;
+    /* outline: 1px dotted red; */
 }
 
 /* variables */
+
 :root {
-    --ff-header: Staatliches, sans-serif;
-    --ff-h1: "Fredoka One", sans-serif;
-    --ff-headings: Kanit, sans-serif;
+    --ff-menu: Staatliches, sans-serif;
+    --ff-h1h2: "Fredoka One", sans-serif;
+    --ff-h3: Kanit, sans-serif;
     --ff-body: "Anek Malayalam", sans-serif;
+    --padding: 2.5%;
 }
 
-body {
-    font-family: var(--ff-body);
+/* main text styles */
+
+h1,
+h2,
+h3 {
+    text-transform: uppercase;
+    text-align: center;
+    padding: var(--padding);
 }
 
 h1 {
-    font-family: var(--ff-h1);
-    /* font-size: 600%; */
-    font-size: 5vw;
-    font-weight: 700;
-    text-transform: uppercase;
+    font-family: var(--ff-h1h2);
     text-shadow: #6e3db8 2px 2px;
+    font-size: clamp(3.5rem, 6vw, 6rem);
 }
 
 h2 {
-    font-family: var(--ff-h1);
-    text-transform: uppercase;
-    font-size: 300%;
+    font-family: var(--ff-h1h2);
+    font-size: clamp(2rem, 4vw, 4rem);
+    text-shadow: #6e3db8 2px 2px;
+}
+
+.white-h2 {
+    text-shadow: black 2px 2px;
 }
 
 h3 {
-    font-family: var(--ff-headings);
-    font-size: 200%;
+    font-family: var(--ff-h3);
+    font-size: clamp(1.5rem, 3vw, 3rem);
 }
 
 p {
-    line-height: 1.5;
-    font-size: 120%;
+    font-family: var(--ff-body);
+    line-height: 2;
+    padding: var(--padding);
+    margin: var(--padding);
+    font-size: clamp(1rem, 2vw, 2rem);
 }
 
-/* header styles */
+a {
+    color: inherit;
+}
+
+/* header */
 
 header {
-    background-color: #6e3db8;
+    background-color: black;
     font-size: 1.25rem;
-    font-family: var(--ff-header);
+    font-family: var(--ff-menu);
     color: white;
 }
 
-.nav-menu {
+#nav-menu {
     display: flex;
     flex-wrap: wrap;
 }
 
-.nav-menu a {
+#nav-menu li {
+    list-style: none;
+    padding: 0.5rem;
+}
+
+#nav-menu a {
     text-decoration: none;
     color: white;
 }
 
-.nav-menu li {
-    list-style: none;
-    padding: 10px 30px 10px 10px;
-}
-
-.nav-menu a:hover {
+#nav-menu a:hover {
     text-decoration: underline;
 }
 
-/* introduction  */
-
-#page-introduction {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 1fr 1fr;
-    grid-template-areas:
-        "title-and-intro highlights"
-        "social-box highlights";
+.active-nav-menu-item {
+    color: #4a208a !important;
 }
 
-.title-and-intro {
-    grid-area: title-and-intro;
-    place-self: center;
-    padding: 10% 5% 0 10%;
+/* introduction section */
+
+#introduction {
+    padding: 5%;
 }
 
-.title-and-intro p {
-    margin-top: 50px;
+.highlights-video-container {
+    text-align: center;
+    padding: var(--padding);
 }
 
-/* highlights video */
-
-.highlights {
-    grid-area: highlights;
-    place-self: center;
-    padding: 10% 10% 10% 5%;
-}
-
-.highlights video {
+video {
+    /* border-radius: 15px; */
     width: 100%;
-    border-radius: 15px;
 }
 
-.video-credit {
-    text-align: center;
+.caption {
+    padding: 0;
 }
 
-/* social info */
-
-.social-box {
-    grid-area: social-box;
-    place-self: center;
-    margin-bottom: 80px;
-}
-
-.social-box h3 {
-    text-align: center;
-    margin: 20px 30px 30px 30px;
-}
-
-.social-links {
-    display: flex;
-    flex-wrap: wrap;
-    flex: 1;
-    justify-content: center;
-}
-
-.social-links li {
-    list-style: none;
-    padding: 0 10px 20px 10px;
-}
-
-.social-links img {
-    width: 150px;
-}
-
-/* delayed input */
+/* delayed input section */
 
 #delayed-input {
-    height: 1000px;
     background: url("../images/delayed-input.gif") no-repeat center;
     background-size: cover;
-}
-
-.colored-layer {
-    height: 100%;
-    width: 100%;
-    background-color: rgba(127, 17, 224, 0.8);
-    /* border: 5px solid white;
-    border-radius: 15px; */
-    margin: auto;
-}
-
-#delayed-input h2 {
     color: white;
-    padding: 5%;
-    text-shadow: black 2px 2px;
+    text-shadow: black 1px 1px;
 }
 
-.highlighted-heading {
-    background-color: white;
-    text-align: center;
+.di-text {
+    align-self: center;
+}
+
+.di-text p {
+    background-color: darkred;
     border-radius: 15px;
-    margin-top: 30px;
-    display: inline-block;
-    padding: 0 30px;
 }
 
-#delayed-input-right {
-    float: right;
-    width: 50%;
-    padding: 0 5% 0 2.5%;
+.transparent-color-layer {
+    background-color: rgba(204, 0, 0, 0.8);
+    padding: 5%;
 }
 
-#delayed-input-left {
-    float: left;
-    width: 50%;
-    padding: 0 2.5% 0 5%;
+.latest-episode {
+    padding: var(--padding);
 }
 
-#delayed-input p {
-    color: white;
-    text-shadow: black 2px 2px;
+.latest-episode h3 {
+    padding: 0 0 calc(var(--padding)*2) 0;
 }
 
 .embed-container {
@@ -198,12 +156,10 @@ header {
     height: 0;
     overflow: hidden;
     max-width: 100%;
-    border-radius: 15px;
+    /* border-radius: 15px; */
 }
 
-.embed-container iframe,
-.embed-container object,
-.embed-container embed {
+.embed-container iframe {
     position: absolute;
     top: 0;
     left: 0;
@@ -211,50 +167,289 @@ header {
     height: 100%;
 }
 
+/* my schedule section */
+
+#my-schedule {
+    padding: 5%;
+}
+
+.schedule-card-container {
+    padding: var(--padding);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.schedule-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    border-radius: 15px;
+    margin: 0.5rem auto;
+    max-width: 380px;
+}
+
+.schedule-card img {
+    width: 60%;
+    padding: var(--padding);
+}
+
+.twitch-day {
+    border: #6e3db8 solid 5px;
+}
+
+.youtube-day {
+    border: #cc0000 solid 5px;
+}
+
+/* games ive streamed section */
+
+#games-ive-streamed {
+    background-color: #6e3db8;
+    padding: 5%;
+    color: white;
+    text-shadow: black 1px 1px;
+}
+
+#game-list-2 {
+    display: none;
+}
+
+.game-list {
+    padding: var(--padding);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.bigger-game-list {
+    display: none !important;
+}
+
+.game-card {
+    margin: 0 auto var(--padding) auto;
+    max-width: 380px;
+}
+
+#game-list-1 .game-card:nth-of-type(n+5) {
+    display: none;
+}
+
+.game-card h3 {
+    background-color: black;
+    border-radius: 15px 15px 0 0;
+    font-size: 1.5rem;
+}
+
+.game-card i {
+    color: #cc0000;
+}
+
+.game-card a {
+    text-decoration: none;
+    color: white;
+}
+
+.game-card a:hover {
+    text-decoration: underline;
+}
+
+.game-card img {
+    width: 100%;
+    border-left: black solid 5px;
+    border-right: black solid 5px;
+}
+
+table {
+    margin: -5px auto 0 auto;
+    font-family: var(--ff-body);
+    color: white;
+    background-color: black;
+    padding: 10px;
+    width: 100%;
+    border-radius: 0 0 15px 15px;
+}
+
+/* left aligning left column, and right aligning right column */
+
+th:nth-of-type(1) {
+    text-align: left;
+}
+
+th:nth-of-type(2),
+td:nth-of-type(2) {
+    text-align: right;
+}
+
+/* footer */
+
+footer {
+    border-top: solid black 2px;
+}
+
+.copywrite-text {
+    font-size: 1rem;
+    line-height: 1;
+    margin: 0;
+    padding: 0.5rem;
+    display: inline;
+    float: left;
+}
+
+footer i {
+    margin-right: 5px;
+}
+
+#social-menu {
+    font-family: var(--ff-menu);
+    display: inline-flex;
+    float: right;
+    text-align: center;
+}
+
+#social-menu li {
+    list-style: none;
+    padding: 0.5rem;
+}
+
+#social-menu a {
+    text-decoration: none;
+    color: black;
+}
+
+#social-menu a:hover {
+    text-decoration: underline;
+}
+
 /* media queries */
 
-/* min width of >548, <768, <992 */
+@media screen and (min-width: 1100px) {
 
-/* re-organise introduction grid at lower resolution */
-@media (max-width: 1432px) {
-    #page-introduction {
-        grid-template-rows: 70% 30%;
+    #introduction {
+        display: grid;
+        grid-template-columns: 50% 50%;
         grid-template-areas:
-            "title-and-intro highlights"
-            "social-box social-box";
-    }
-
-    .title-and-intro {
-        padding: 0 5% 0 10%;
+            "title title"
+            "intro-text intro-video";
     }
 
     h1 {
-        font-size: 400%;
+        grid-area: title;
+    }
+
+    .intro-text {
+        grid-area: intro-text;
+    }
+
+    .highlights-video-container {
+        grid-area: intro-video;
+        place-self: center;
+    }
+
+    .caption {
+        font-size: 1rem;
+    }
+
+    .transparent-color-layer {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-areas:
+            "title title"
+            "latest-episode di-text"
+            "previous-episodes previous-episodes";
+    }
+
+    h2 {
+        grid-area: title;
+    }
+
+    .latest-episode-title {
+        text-align: left;
+    }
+
+    .di-text {
+        grid-area: di-text;
+    }
+
+    .latest-episode {
+        grid-area: latest-episode;
+    }
+
+    .previous-episodes {
+        grid-area: previous-episodes;
+        text-align: center;
     }
 }
 
-/* change introduction grid layout to block on smaller devicies, fix padding and center h1 */
-@media (max-width: 1000px) {
-    #page-introduction {
+@media screen and (min-width: 1371px) {
+
+    #game-list-1 .game-card:nth-of-type(n+5) {
         display: block;
     }
 
-    h1 {
-        text-align: center;
-    }
-
-    .title-and-intro {
-        padding: 10% 10% 0 10%;
-    }
-
-    .highlights {
-        padding: 10%;
-    }
 }
 
-/* changes the way the top nav menu displays before it wraps */
-@media (max-width: 784px) {
-    .nav-menu {
-        justify-content: center;
+@media screen and (max-width: 1833px) and (min-width: 1371px) {
+
+    .schedule-card {
+        flex-direction: row;
+        max-width: none;
+        width: 80%;
     }
+
+    .schedule-card p {
+        padding: 0;
+        margin: 0;
+    }
+
+    .schedule-card img {
+        width: 20%;
+    }
+
+}
+
+@media screen and (min-width: 1834px) {
+
+    #games-ive-streamed {
+        display: grid;
+        grid-template-columns: 40% 60%;
+        grid-template-areas:
+            "title title"
+            "text gamecards"
+            "morecards morecards";
+    }
+
+    h2 {
+        grid-area: title;
+    }
+
+    #game-list-1 {
+        grid-area: gamecards;
+    }
+
+    #game-list-2 {
+        display: flex;
+        gap: 1rem;
+        grid-area: morecards;
+        padding: calc(var(--padding)/2);
+    }
+
+    .gis-text {
+        grid-area: text;
+    }
+
+    #game-list-1 .game-card {
+        max-width: 32%;
+    }
+
+    #game-list-2 .game-card {
+        max-width: 19%;
+    }
+
+    #game-list-1 .game-card:nth-of-type(n+4) {
+        display: none;
+    }
+
 }

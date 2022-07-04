@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- remember to fill me in -->
+    <meta name="description" content="">
+    <meta name="tags" content="">
+    <meta name="author" content="">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://kit.fontawesome.com/9446ef5fe5.js" crossorigin="anonymous"></script>
+    <title>Kyle Bosman</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul id="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#delayed-input">Delayed Input</a></li>
+                <li><a href="#my-schedule">My Schedule</a></li>
+                <li><a href="#games-ive-streamed">Games I've Streamed</a></li>
+                <li><a href="watch-live.html" class="active-nav-menu-item">Watch Live</a></li>
+                <li><a href="contact-me.html">Contact Me</a></li>
+                <li><a href="topbutton.html">Button Test</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <script src="https://player.twitch.tv/js/embed/v1.js"></script>
+    <div id="player"></div>
+    <script type="text/javascript">
+        var options = {
+            width: 1280,
+            height: 720,
+            channel: "zeplahq",
+        };
+        var player = new Twitch.Player("player", options);
+        player.setVolume(0.5);
+    </script>
+
+
+
+    <footer>
+        <p class="copywrite-text">© Kyle Bosman 2022</p>
+        <ul id="social-menu">
+            <li><i class="fa-brands fa-patreon"></i> <a href="#">Patreon</a></li>
+            <li><i class="fa-brands fa-twitch"></i> <a href="#">Twitch</a></li>
+            <li><i class="fa-brands fa-twitter"></i> <a href="#">Twitter</a></li>
+            <li><i class="fa-brands fa-youtube"></i> <a href="#">YouTube</a></li>
+        </ul>
+    </footer>
+</body>
+
+</html>
