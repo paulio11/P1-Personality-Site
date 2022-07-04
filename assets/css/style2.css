@@ -46,6 +46,10 @@ h2 {
     text-shadow: #6e3db8 2px 2px;
 }
 
+.white-h2 {
+    text-shadow: black 2px 2px;
+}
+
 h3 {
     font-family: var(--ff-h3);
     font-size: clamp(1.5rem, 3vw, 3rem);
@@ -67,7 +71,7 @@ a {
 /* header */
 
 header {
-    background-color: #6e3db8;
+    background-color: black;
     font-size: 1.25rem;
     font-family: var(--ff-menu);
     color: white;
@@ -128,10 +132,6 @@ video {
 .transparent-color-layer {
     background-color: rgba(204, 0, 0, 0.8);
     padding: 5%;
-}
-
-#delayed-input h2 {
-    text-shadow: black 2px 2px;
 }
 
 .latest-episode {
@@ -196,11 +196,13 @@ video {
 /* games ive streamed section */
 
 #games-ive-streamed {
-    background-color: #be99fd;
+    background-color: #6e3db8;
     padding: 5%;
+    color: white;
+    text-shadow: black 1px 1px;
 }
 
-#games-ive-streamed > img {
+#games-ive-streamed>img {
     display: none;
 }
 
@@ -384,7 +386,7 @@ footer i {
         grid-area: text;
     }
 
-    #games-ive-streamed > img {
+    #games-ive-streamed>img {
         width: 90%;
         grid-area: gamepad;
         border-radius: 15px;
