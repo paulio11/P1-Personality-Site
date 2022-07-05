@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="assets/css/style.css">
+	<title>Document</title>
+</head>
+
+<body>
+	<header>
+		<nav>
+			<ul id="nav-menu">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="#delayed-input">Delayed Input</a></li>
+				<li><a href="#my-schedule">My Schedule</a></li>
+				<li><a href="#games-ive-streamed">Games I've Streamed</a></li>
+				<li><a href="watch-live.html">Watch Live</a></li>
+				<li><a href="contact-me.html" class="active-nav-menu-item">Contact Me</a></li>
+				<li><a href="topbutton.html">Button Test</a></li>
+			</ul>
+		</nav>
+	</header>
+	<section>
+		<h2>Contact Me</h2>
+		<p>Text here</p>
+		<div id="form-container">
+
+			<form action="https://formdump.codeinstitute.net/" method="POST" class="contact-form">
+
+
+
+				<label for="name">Name</label>
+				<input type="text" name="name" id="name" required class="text-input">
+
+				<label for="email">Email Address</label>
+				<input type="email" name="email_address" id="email" required class="text-input">
+
+				<label for="subject">Subject</label>
+				<input list="subjects" name="subject" id="subject" required class="text-input">
+
+				<datalist id="subjects">
+					<option value="Fan Mail">
+					<option value="Business Inquiry">
+					<option value="Art Show Submission">
+				</datalist>
+
+				<label for="file">Art Show Submission</label>
+				<input type="file" name="submission" id="file">
+
+				<label for="message">Your Message</label>
+				<input type="textarea" name="message" id="message" required>
+
+
+
+				<input type="submit" name="" id="" value="Let's Run!" class="join-button">
+				<input type="reset">
+
+			</form>
+
+
+		</div>
+	</section>
+	<footer>
+		<p class="copywrite-text">© Kyle Bosman 2022</p>
+		<ul id="social-menu">
+			<li><i class="fa-brands fa-patreon"></i> <a href="#">Patreon</a></li>
+			<li><i class="fa-brands fa-twitch"></i> <a href="#">Twitch</a></li>
+			<li><i class="fa-brands fa-twitter"></i> <a href="#">Twitter</a></li>
+			<li><i class="fa-brands fa-youtube"></i> <a href="#">YouTube</a></li>
+		</ul>
+	</footer>
+</body>
+
+</html>

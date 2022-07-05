@@ -30,17 +30,27 @@
     </header>
 
 
-    <script src="https://player.twitch.tv/js/embed/v1.js"></script>
-    <div id="player"></div>
-    <script type="text/javascript">
-        var options = {
-            width: 1280,
-            height: 720,
-            channel: "zeplahq",
-        };
-        var player = new Twitch.Player("player", options);
-        player.setVolume(0.5);
-    </script>
+    <div class="twitch">
+        <div class="twitch-video">
+          <iframe
+            src="https://player.twitch.tv/?channel=zeplahq"
+            frameborder="0"
+            scrolling="no"
+            allowfullscreen="true"
+            height="100%"
+            width="100%">
+          </iframe>
+        </div>
+        <div class="twitch-chat">
+          <iframe
+            frameborder="0"
+            scrolling="no"
+            src="https://www.twitch.tv/embed/phil_nash/chat?parent=ws-eu51.gitpod.io"
+            height="100%"
+            width="100%">
+          </iframe>
+        </div>
+      </div>
 
 
 
