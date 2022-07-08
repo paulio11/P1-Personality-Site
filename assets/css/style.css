@@ -59,7 +59,7 @@ p {
     line-height: 2;
     padding: var(--padding);
     margin: var(--padding);
-    font-size: clamp(1rem, 2vw, 2rem);
+    font-size: clamp(1rem, 2vw, 1.5rem);
 }
 
 a {
@@ -102,7 +102,7 @@ header {
 /* introduction section */
 
 #introduction {
-    padding: 5%;
+    padding: 0 5% 5% 5%;
 }
 
 .highlights-video-container {
@@ -122,7 +122,7 @@ video {
 /* delayed input section */
 
 #delayed-input {
-    background: url("../images/delayed-input.gif") no-repeat center;
+    background: url("../images/delayed-input.jpg") no-repeat center;
     background-size: cover;
     color: white;
     text-shadow: black 1px 1px;
@@ -576,9 +576,16 @@ button:hover {
 
     .form-description {
         grid-area: text;
+        padding: 0 7.5% 0 0;
+    }
+
+    .form-description p {
+        padding: 0;
+        margin: 0;
     }
 
     .contact-me-form {
         grid-area: form;
     }
+
 }
