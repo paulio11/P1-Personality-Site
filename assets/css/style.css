@@ -94,7 +94,10 @@ header {
     text-decoration: underline;
 }
 
-.active-nav-menu-item {}
+.active-nav-menu-item {
+    border: 1px solid white;
+    padding: 0 3px;
+}
 
 /* introduction section */
 
@@ -566,7 +569,7 @@ button:hover {
     #form-and-text {
         display: grid;
         grid-template-columns: 60% 40%;
-        grid-template-areas: 
+        grid-template-areas:
             "form text";
         margin-top: 40px;
     }
