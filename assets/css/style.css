@@ -454,6 +454,10 @@ footer i {
 
 /* watch-live.html specific styles */
 
+.twitch {
+    border-top: black solid 2px;
+}
+
 .twitch .twitch-video {
     /* to create 16.9 aspect ratio */
     padding-top: 56.25%;
@@ -495,4 +499,64 @@ footer i {
         right: 0;
         bottom: 0;
     }
+}
+
+/* contact-me.html specific styles */
+
+.form-description {
+    padding: var(--padding);
+}
+
+.contact-me-form {
+    width: 90%;
+    padding: 5%;
+    background-color: #6e3db8;
+    margin: 0 auto 5%;
+    border-radius: 15px;
+    color: white;
+    font-weight: 700;
+    font-family: var(--ff-body);
+}
+
+.radio-label {
+    font-weight: 400;
+}
+
+.required {
+    color: red;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+    width: 100%;
+}
+
+input[type=text],
+input[type=email],
+input[type=file],
+.last-radio,
+textarea {
+    margin-bottom: 1rem;
+}
+
+input[type=text],
+input[type=email] {
+    height: 2rem;
+}
+
+button {
+    font-family: var(--ff-body);
+    color: black;
+    background-color: white;
+    text-transform: uppercase;
+    font-size: larger;
+    font-weight: 700;
+    margin: 1rem 2rem 0 0;
+    padding: 5px;
+}
+
+button:hover {
+    background-color: #2d0c5e;
+    color: white;
 }
