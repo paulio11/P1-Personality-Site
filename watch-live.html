@@ -30,11 +30,24 @@
   </header>
 
   <h1>Watch Live!</h1>
-  <iframe src="https://player.twitch.tv/?channel=kylebosman&parent=paulio11.github.io/project1"
-    height="500px" width="500px" allowfullscreen>
-  </iframe>
 
+  <!-- https://philna.sh/blog/2020/03/23/responsive-twitch-embed/ -->
 
+  <div class="twitch">
+
+    <div class="twitch-video">
+      <iframe src="https://player.twitch.tv/?channel=kylebosman&parent=paulio11.github.io&autoplay=false"
+        frameborder="0" scrolling="no" allowfullscreen="true" height="100%" width="100%">
+      </iframe>
+    </div>
+
+    <div class="twitch-chat">
+      <iframe frameborder="0" scrolling="no" src="https://www.twitch.tv/embed/kylebosman/chat?parent=paulio11.github.io"
+        height="100%" width="100%">
+      </iframe>
+    </div>
+
+  </div>
 
   <footer>
     <p class="copywrite-text">© Kyle Bosman 2022</p>
