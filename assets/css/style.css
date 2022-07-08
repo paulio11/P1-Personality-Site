@@ -560,3 +560,22 @@ button:hover {
     background-color: #2d0c5e;
     color: white;
 }
+
+@media screen and (min-width: 700px) {
+
+    #form-and-text {
+        display: grid;
+        grid-template-columns: 60% 40%;
+        grid-template-areas: 
+            "form text";
+        margin-top: 40px;
+    }
+
+    .form-description {
+        grid-area: text;
+    }
+
+    .contact-me-form {
+        grid-area: form;
+    }
+}
