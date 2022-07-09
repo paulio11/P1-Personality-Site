@@ -66,6 +66,10 @@ a {
     color: inherit;
 }
 
+a:hover {
+    color: #6e3db8;
+}
+
 /* header */
 
 header {
@@ -122,10 +126,15 @@ video {
 /* delayed input section */
 
 #delayed-input {
-    background: url("../images/delayed-input.jpg") no-repeat center;
+    background: url("../images/delayed-input.webp") no-repeat center;
     background-size: cover;
     color: white;
     text-shadow: black 1px 1px;
+}
+
+#delayed-input a:hover,
+#games-ive-streamed a:hover {
+    color: black;
 }
 
 .di-text {
@@ -254,7 +263,7 @@ video {
 }
 
 .game-card a:hover {
-    text-decoration: underline;
+    color: #cc0000 !important;
 }
 
 .game-card img {
@@ -519,6 +528,7 @@ footer i {
     color: white;
     font-weight: 700;
     font-family: var(--ff-body);
+    font-size: clamp(1rem, 2vw, 1.5rem);
 }
 
 .radio-label {
@@ -533,6 +543,7 @@ input[type=text],
 input[type=email],
 textarea {
     width: 100%;
+    font-size: 1rem;
 }
 
 input[type=text],
