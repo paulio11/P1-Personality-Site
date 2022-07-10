@@ -57,10 +57,15 @@
 				<label for="message">Message<span class="required">*</span></label><br>
 				<textarea type="textarea" name="message" rows="10" id="message" required></textarea>
 			</div>
-			<div>
+			<!-- <div>
 				<label for="art-show-file">Art Show Submission</label><br>
 				<input type="file" name="art-show-submission" multiple="false" id="art-show-file">
-			</div>
+			</div> -->
+			<!-- https://jsfiddle.net/4cwpLvae/ -->
+			<label for="art-show-file" class="custom-upload-button">
+				<span><i class="fa fa-cloud-upload"></i> Upload your Art Show submission here</span>
+			</label>
+			<input type="file" id="art-show-file" name="art-show-file">
 			<button type="reset">Clear form</button>
 			<button type="submit">Send message</button>
 		</form>
