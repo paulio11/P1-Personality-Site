@@ -5,7 +5,7 @@
 ![Website responsive screenshot](https://paulio11.github.io/project-1/assets/images/readme/amiresponsive.png)
 
 ## Introduction
-This website servs as a first point of contact and information for YouTuber and Twitch stream Kyle Bosman.
+This website serves as a first point of contact and information for YouTuber and Twitch stream Kyle Bosman.
 
 A problem with the modern internet is that there are so many services one idividual may be signed up for and using at the same time - all for different purposes and reasons. Sites such as Twitter, Facebook, Instagram, Patreon, YouTube and Twitch. When you google someone you get hundreds of results all taking you to different places where you may or may not find the information you are looking for.
 
@@ -67,3 +67,17 @@ Functionally the website should be:
 ### Site Map
 
 ![Site Map](https://paulio11.github.io/project-1/assets/images/readme/sitemap.png)
+
+### Wireframe
+
+[Balsamiq for Desktop](https://balsamiq.com/wireframes/) was used ahead of developement to plan the basic skelton of the three pages.
+
+## Design
+
+### Colour Scheme
+
+The colour scheme was chosen based on the other websites in which Kyle publishes his content - namely Twitch and YouTube. With the hope that the colours of red (representing YouTube) and purple (representing Twitch) help tie all his work together whilst also highlighting the importance of those other websites. This provices a cohesive experiece if the user should choose to visit one of these external websites following links on the page. The rest of the content ins in a simple black and white. The four colours together help define each section of the page as well as maintaining visual accessibility due to their high contrast. 
+
+#### Colour Palette
+
+![Colour Palette](https://paulio11.github.io/project-1/assets/images/readme/palette.jpg)
