@@ -70,6 +70,31 @@ a:hover {
     color: #6e3db8;
 }
 
+/* return to top button */
+
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 40px; /* Place the button at the bottom of the page */
+    right: 10px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: 2px solid black; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: white; /* Set a background color */
+    color: black; /* Text color*/
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 1.25rem; /* Increase font size */
+    font-family: var(--ff-menu);
+  }
+  
+  #myBtn:hover {
+    background-color: #6e3db8; /* Add a dark-grey background on hover */
+    color: white;
+    border: 2px solid white;
+  }
+
 /* header */
 
 header {
