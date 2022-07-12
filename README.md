@@ -9,7 +9,7 @@ This website servs as a first point of contact and information for YouTuber and 
 
 A problem with the modern internet is that there are so many services one idividual may be signed up for and using at the same time - all for different purposes and reasons. Sites such as Twitter, Facebook, Instagram, Patreon, YouTube and Twitch. When you google someone you get hundreds of results all taking you to different places where you may or may not find the information you are looking for.
 
-![Google result count for Kyle Bosman](https://paulio11.github.io/project-1/assets/images/readme/googleresults.png)
+![Google result count for Kyle Bosman](https://paulio11.github.io/project-1/assets/images/readme/googleresult.png)
 
 The goal of this project is was to make a central location where you can find exacatly what you've been looking for. A short summary about the person and showcases of the work they do and links to follow to all corners of the internet where they might have public profiles/pages. Enabling you to get to where you need to be.
 
