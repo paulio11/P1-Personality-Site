@@ -122,4 +122,4 @@ Each page contains the following common features:
 - A `<footer>` bar containing a line of copy-write text and social links with icons from [Font Awesome]().
     - Set to `float: left;` and `float: right;`.
 
-Neither the 
+Neither the `<header>` or `<footer>` are fixed to the top/bottom of the screen as I believed it would have taken up too much screen space - especially on a smaller device. To remedy the navigation issues casued on [home page](https://paulio11.github.io/project-1) I added a simple javascript *scroll back to top* button. The code used was taken from [W3 Schools](https://www.w3schools.com/howto/howto_js_scroll_to_top.asp) as my course has not yet touched on javascript thus far. It is styled using CSS to match the overall look and feel of the website.
