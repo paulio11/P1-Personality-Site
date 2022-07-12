@@ -70,7 +70,9 @@ Functionally the website should be:
 
 ### Wireframe
 
-[Balsamiq for Desktop](https://balsamiq.com/wireframes/) was used ahead of developement to plan the basic skelton of the three pages.
+[Balsamiq for Desktop](https://balsamiq.com/wireframes/) was used ahead of developement to plan the basic skelton of the three pages. You can download my wireframe file [here](https://paulio11.github.io/project-1/assets/other/wireframe.bmpr).
+
+![Website wireframe](https://paulio11.github.io/project-1/assets/images/readme/wireframe.jpg)
 
 ## Design
 
