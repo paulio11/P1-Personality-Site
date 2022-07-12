@@ -81,3 +81,45 @@ The colour scheme was chosen based on the other websites in which Kyle publishes
 #### Colour Palette
 
 ![Colour Palette](https://paulio11.github.io/project-1/assets/images/readme/palette.jpg)
+
+### Typography
+
+Fonts are imported from [Google Fonts](https://fonts.google.com). I chose [Fredoka One]() for both the `<h1>` and `<h2>` headings - used as the main title of the page and the titles of each main section. [Kanit]() for any less important titles within a section as it better fits with the body text. The body text is [Anek Malayalam]() as it is clear at all font sizes and fits the moder look I was aiming for. To contrast from the rest of the site [Staatliches]() in `uppercase` was used for the `<header>` and `<footer>` navigation links.
+
+### Images and Video
+
+Social website icons are part of the icon library of [Font Awesome](). The text logos for both YouTube and Twitch are taken from their websites brand assets pages.
+
+The video highlighting some popular Kyle Bosman videos was edited together by YouTuber [Dominic Barlow](). I ran it through an online conversion tool to lower the file size by using the .webm format. It's smaller file size (14mb) and quality better suits it's place on a home page.
+
+The Delayed Input logo is used on both the [Patreon Page]() for the show and as part of each episodes introduction. It was designed and created by [Scott Asquith](http://scottasquith.com). It is used as a `background-image` in the [Delayed Input](https://paulio11.github.io/project-1/#delayed-input) section.
+
+Video game cover art is used in the [Games I've Streamed](https://paulio11.github.io/project-1/#games-ive-streamed). Game cover art is property of the video game's publisher in most cases, but these are often freely used on websites such as [Twitch](https://www.twitch.tv) and online stores.
+
+| Game | Publisher |
+| ----------- | ----------- |
+| TMNT Shredder's Revenge | DotEmu |
+| Rifftrax the Game | Wide Right Interactive |
+| Kirby and the Forgotten Land | Nintendo |
+| Pokémon Legends Arceus | Nintendo |
+| Final Fantasy XIV Heavensward | Square-Enix |
+| Monster Hunter Rise | Capcom |
+| Final Fantasy IX | Square-Enix |
+
+## Features
+
+The [Contact](https://paulio11.github.io/project-1/contact-me.html), [Watch Live](https://paulio11.github.io/project-1/watch-live.html) and [Home](https://paulio11.github.io/project-1) pages all have a consistent style. Built from the ground up to be responsive and viewable on all screen sizes with a `min-width: 300px`.
+
+Each page contains the following common features:
+- The main page `<header>`.
+    - A area right at the top of the page with links to the sections within the main index.html page as well as contact-me.html and watch-live.html.
+    - This navigation menu is a responsive `display: flex;` set to `flex-wrap: wrap;` so it adjusts to fit smaller screen sizes or resized windows.
+- The page title.
+    - A `<h1>` element.
+- Similar margins and paddings to create consistent spacing.
+    - Using a variable in CSS during development to make it easy to adjust manually or for creating `@media` queries.
+    - `--padding: 2.5%;`.
+- A `<footer>` bar containing a line of copy-write text and social links with icons from [Font Awesome]().
+    - Set to `float: left;` and `float: right;`.
+
+Neither the 
