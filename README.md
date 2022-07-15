@@ -2,14 +2,14 @@
 
 [Link to live GitHub deployment](https://paulio11.github.io/project-1/)
 
-![Website responsive screenshot](https://paulio11.github.io/project-1/assets/images/readme/amiresponsive.png)
+![Website responsive screenshot](https://paulio11.github.io/project-1/documentation/amiresponsive.png)
 
 ## Introduction
 This website serves as a first point of contact and information for YouTuber and Twitch stream Kyle Bosman.
 
 A problem with the modern internet is that there are so many services one idividual may be signed up for and using at the same time - all for different purposes and reasons. Sites such as Twitter, Facebook, Instagram, Patreon, YouTube and Twitch. When you google someone you get hundreds of results all taking you to different places where you may or may not find the information you are looking for.
 
-![Google result count for Kyle Bosman](https://paulio11.github.io/project-1/assets/images/readme/googleresult.png)
+![Google result count for Kyle Bosman](https://paulio11.github.io/project-1/documentation/googleresult.png)
 
 The goal of this project is was to make a central location where you can find exacatly what you've been looking for. A short summary about the person and showcases of the work they do and links to follow to all corners of the internet where they might have public profiles/pages. Enabling you to get to where you need to be.
 
@@ -66,13 +66,13 @@ Functionally the website should be:
 
 ### Site Map
 
-![Site Map](https://paulio11.github.io/project-1/assets/images/readme/sitemap.png)
+![Site Map](https://paulio11.github.io/project-1/documentation/sitemap.png)
 
 ### Wireframe
 
-[Balsamiq for Desktop](https://balsamiq.com/wireframes/) was used ahead of developement to plan the basic skelton of the three pages. You can download my wireframe file [here](https://paulio11.github.io/project-1/assets/other/wireframe.bmpr).
+[Balsamiq for Desktop](https://balsamiq.com/wireframes/) was used ahead of developement to plan the basic skelton of the three pages. You can download my wireframe file [here](https://paulio11.github.io/project-1/documentation/wireframe.bmpr).
 
-![Website wireframe](https://paulio11.github.io/project-1/assets/images/readme/wireframe.jpg)
+![Website wireframe](https://paulio11.github.io/project-1/documentation/wireframe.jpg)
 
 ## Design
 
@@ -82,7 +82,7 @@ The colour scheme was chosen based on the other websites in which Kyle publishes
 
 #### Colour Palette
 
-![Colour Palette](https://paulio11.github.io/project-1/assets/images/readme/palette.jpg)
+![Colour Palette](https://paulio11.github.io/project-1/documentation/palette.jpg)
 
 ### Typography
 
