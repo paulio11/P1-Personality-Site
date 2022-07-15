@@ -187,4 +187,17 @@ Same as the 404 page besides the heading and text to let the user know there has
 ### Unimplimended Features
 
 If I had more time I would have loved to have implemendted the following:
-- A contact form feedback page instead of just directing to the Code Institute form dump.
+- A contact form confirmation page instead of just directing to the Code Institute form dump.
+- Due to hiding the file input on the contact form (to match style) there is no longer feedback showing a file has sucessfully been selected. Would love to have researched this more and added something to show this in the button's absence.
+- A hamburger menu for the header navigation menu. It wraps and covers 2 or 3 lines at lower screen widths which looks okay but not great. This is probably something I can come back and add once I start learning more about javascript.
+- A gallery page based on the one in the [Love Running](https://github.com/paulio11/love-running) walkthrough project. This would have been a great way to show off some of the art Kyle recieves and showcases weekly on his streams.
+
+## Bugs and Other Issues
+
+## Technologies
+
+## Testing
+
+## Deployment
+
+## Credits
