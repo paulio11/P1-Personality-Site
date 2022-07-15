@@ -124,15 +124,30 @@ Each page contains the following common features:
 - A `<footer>` bar containing a line of copy-write text and social links with icons from [Font Awesome]().
     - Set to `float: left;` and `float: right;`.
     - Placed at the bottom of the viewport using `display: flex;`, `flex-direction: column;`, and `flex-grow: 1;` on a container `<div>` that holds the page content above the `<footer>`. 
+- Responsive font sizes suitable for all widths using `clamp`.
 
-Neither the `<header>` or `<footer>` are fixed to the top/bottom of the screen as I believed it would have taken up too much screen space - especially on a smaller device. To remedy the navigation issues casued on [home page](https://paulio11.github.io/project-1) I added a simple javascript *scroll back to top* button. The code used was taken from [W3 Schools](https://www.w3schools.com/howto/howto_js_scroll_to_top.asp) as my course has not yet touched on javascript thus far. It is styled using CSS to match the overall look and feel of the website.
+Neither the `<header>` or `<footer>` are fixed to the top/bottom of the screen as I believed it would have taken up too much screen space - especially on a smaller device. To remedy the navigation issues casued on the taller [home page](https://paulio11.github.io/project-1) I added a simple javascript *scroll back to top* button. The code used was taken from [W3 Schools](https://www.w3schools.com/howto/howto_js_scroll_to_top.asp) as my course has not yet touched on javascript thus far. It is styled using CSS to match the overall look and feel of the website.
 
 _**[Home Page](https://paulio11.github.io/project-1)**_
 
 The home page is split into four sections, reachable by either scrolling down the page or using the navigation links in the header. The content is displayed as a single column on smaller devicies but changes to `display: grid;` at higher screen widths. 
 - _Introduction_ - A column with the title, brief introduction text explaining who Kyle is, and a `<video>` showing highlights. Changes to a grid to show content better at larger widths. Title on top, paragraph and video side by side.
+- _Delayed Input_ - Similar in structure to the introduction section, showing a paragraph an embeded YouTube video in a single column and smaller screen widths, changing to a grid at larger screen widths.
+- _My Schedule_ - A `display: flex;` div showing cards for each day that Kyle does something. Four cards in total displaying as a column, then a 2x2 arrangement, up to a 1x4 line at larger screen widths. To avoid an unpleasant looking line of 3 cards then a line with a single card at widths between where 2x2 and 1x4 work I used a `@media` query to change the flex direction - see video below.
+- _Games I've Played_ - My most complex section. Starting as a single column of four games Kyle has recently played. Showing off game box art, a title with links to YouTube, and a table underneath giving those games a fake score along with the date the game was played. All styled to look like a single cohesive card. At larger screen widths this changes to a 2x2 arrangement, then a 3x2 showing more cards than before, then finally a grid showing a row with a paragraph and 3 games, followed by another row with 5 games - again showing more than before. This was achieved using a combination of hiding larger elements with `display: none;` and targetting and hiding specific children using:
+    ```
+    #game-list-1 .game-card:nth-of-type(n+5) {
+        display: none;
+    }
+    ```
 
-![Intro section desktop view](https://paulio11.github.io/project-1/documentation/intro-desktop.jpg)
-![Intro section mobile view](https://paulio11.github.io/project-1/documentation/intro-mobile.jpg)
+<details>
+<summary>Home page responsive layout video</summary>
 
-- _Delayed Input_ - 
+![Home page responsive layout video](https://paulio11.github.io/project-1/documentation/XXXXXXXX)
+
+</details><br>
+
+_**[Watch Live](https://paulio11.github.io/project-1/watch-live.html)**_
+
+_**[Contact Me](https://paulio11.github.io/project-1/contact-me.html)**_
