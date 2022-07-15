@@ -14,62 +14,60 @@
 </head>
 
 <body>
-	<header>
-		<nav>
-			<ul id="nav-menu">
-				<li><a href="index.html">Home</a></li>
-				<li><a href="index.html#delayed-input">Delayed Input</a></li>
-				<li><a href="index.html#my-schedule">My Schedule</a></li>
-				<li><a href="index.html#games-ive-streamed">Games I've Streamed</a></li>
-				<li><a href="watch-live.html">Watch Live</a></li>
-				<li><a href="contact-me.html" class="active-nav-menu-item">Contact Me</a></li>
-			</ul>
-		</nav>
-	</header>
-	<h1>Contact Me</h1>
-	<section id="form-and-text">
-		<div class="form-description">
-			<p>Whether you are a fan, a freak, or a potential business partner you can use the contact form on this page
-				to get in touch with me and I will respond as soon as I can. If you're submitting a piece of art to our
-				weekly art show please remember to <strong>choose your file(s)</strong> before sending the message!</p>
-			<p><span class="required">*</span> A red asterix denotes a required field.</p>
-		</div>
-		<form action="https://formdump.codeinstitute.net/" method="post" class="contact-me-form">
-			<label for="name">Name<span class="required">*</span></label>
-			<input type="text" name="name" id="name" required>
-			<label for="email">Email<span class="required">*</span></label>
-			<input type="email" name="email" access="false" id="email" required>
-			<label for="subject">Message Subject<span class="required">*</span></label>
-			<div>
-				<input type="radio" name="subject" id="fan-mail" value="fan-mail" required>
-				<label for="fan-mail" class="radio-label">Fan Mail</label>
+	<div id="main-content">
+		<header>
+			<nav>
+				<ul id="nav-menu">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="index.html#delayed-input">Delayed Input</a></li>
+					<li><a href="index.html#my-schedule">My Schedule</a></li>
+					<li><a href="index.html#games-ive-streamed">Games I've Streamed</a></li>
+					<li><a href="watch-live.html">Watch Live</a></li>
+					<li><a href="contact-me.html" class="active-nav-menu-item">Contact Me</a></li>
+				</ul>
+			</nav>
+		</header>
+		<h1>Contact Me</h1>
+		<section id="form-and-text">
+			<div class="form-description">
+				<p>Whether you are a fan, a freak, or a potential business partner you can use the contact form on this page
+					to get in touch with me and I will respond as soon as I can. If you're submitting a piece of art to our
+					weekly art show please remember to <strong>choose your file(s)</strong> before sending the message!</p>
+				<p><span class="required">*</span> A red asterix denotes a required field.</p>
 			</div>
-			<div>
-				<input type="radio" name="subject" id="business-inquiry" value="business-inquiry" required>
-				<label for="business-inquiry" class="radio-label">Business Inquiry</label>
-			</div>
-			<div>
-				<input type="radio" name="subject" id="art-show-submission" value="art-show-submission"
-					class="last-radio" required>
-				<label for="art-show-submission" class="radio-label">Art Show Submission</label>
-			</div>
-			<div>
-				<label for="message">Message<span class="required">*</span></label><br>
-				<textarea type="textarea" name="message" rows="10" id="message" required></textarea>
-			</div>
-			<!-- <div>
-				<label for="art-show-file">Art Show Submission</label><br>
-				<input type="file" name="art-show-submission" multiple="false" id="art-show-file">
-			</div> -->
-			<!-- https://jsfiddle.net/4cwpLvae/ -->
-			<label for="art-show-file" class="custom-upload-button">
-				<span><i class="fa fa-cloud-upload"></i> Upload your Art Show submission here</span>
-			</label>
-			<input type="file" id="art-show-file" name="art-show-file">
-			<button type="reset">Clear form</button>
-			<button type="submit">Send message</button>
-		</form>
-	</section>
+			<form action="https://formdump.codeinstitute.net/" method="post" class="contact-me-form">
+				<label for="name">Name<span class="required">*</span></label>
+				<input type="text" name="name" id="name" required>
+				<label for="email">Email<span class="required">*</span></label>
+				<input type="email" name="email" access="false" id="email" required>
+				<label for="subject">Message Subject<span class="required">*</span></label>
+				<div>
+					<input type="radio" name="subject" id="fan-mail" value="fan-mail" required>
+					<label for="fan-mail" class="radio-label">Fan Mail</label>
+				</div>
+				<div>
+					<input type="radio" name="subject" id="business-inquiry" value="business-inquiry" required>
+					<label for="business-inquiry" class="radio-label">Business Inquiry</label>
+				</div>
+				<div>
+					<input type="radio" name="subject" id="art-show-submission" value="art-show-submission" class="last-radio"
+						required>
+					<label for="art-show-submission" class="radio-label">Art Show Submission</label>
+				</div>
+				<div>
+					<label for="message">Message<span class="required">*</span></label><br>
+					<textarea type="textarea" name="message" rows="10" id="message" required></textarea>
+				</div>
+				<!-- https://jsfiddle.net/4cwpLvae/ -->
+				<label for="art-show-file" class="custom-upload-button">
+					<span><i class="fa fa-cloud-upload"></i> Upload your Art Show submission here</span>
+				</label>
+				<input type="file" id="art-show-file" name="art-show-file">
+				<button type="reset">Clear form</button>
+				<button type="submit">Send message</button>
+			</form>
+		</section>
+	</div>
 	<footer>
 		<p class="copywrite-text">© Kyle Bosman 2022</p>
 		<ul id="social-menu">
@@ -83,6 +81,7 @@
 					aria-label="Go to my YouTube page (opens in a new tab)">YouTube</a></li>
 		</ul>
 	</footer>
+
 	<!-- font awesome script for icons -->
 	<script src="https://kit.fontawesome.com/9446ef5fe5.js" crossorigin="anonymous"></script>
 </body>
