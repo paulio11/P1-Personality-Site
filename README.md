@@ -110,7 +110,7 @@ Video game cover art is used in the [Games I've Streamed](https://paulio11.githu
 
 ## Features
 
-The [Contact](https://paulio11.github.io/project-1/contact-me.html), [Watch Live](https://paulio11.github.io/project-1/watch-live.html) and [Home](https://paulio11.github.io/project-1) pages all have a consistent style. Built from the ground up to be responsive and viewable on all screen sizes with a `min-width: 300px`.
+The [Contact](https://paulio11.github.io/project-1/contact-me.html), [Watch Live](https://paulio11.github.io/project-1/watch-live.html), [Home](https://paulio11.github.io/project-1), and error pages all have a consistent style. Built from the ground up to be responsive and viewable on all screen sizes with a `min-width: 300px`.
 
 Each page contains the following common features:
 - The main page `<header>`.
@@ -140,6 +140,7 @@ The home page is split into four sections, reachable by either scrolling down th
         display: none;
     }
     ```
+- A javascript back to top button.
 
 <details>
 <summary>Home page responsive layout video</summary>
@@ -150,4 +151,40 @@ The home page is split into four sections, reachable by either scrolling down th
 
 _**[Watch Live](https://paulio11.github.io/project-1/watch-live.html)**_
 
+This is where visitors to the website can go to watch Kyle if he is live, or take part in his Twitch chat. The main content of this page is two `<iframe>` elements. Displaying side by side at larger screen widths and above and below each other at smaller screen widths. The code used to make this layout responsive was based on code by [Phil Nash](https://philna.sh/blog/2020/03/23/responsive-twitch-embed/).
+
+<details>
+<summary>Watch Live page responsive layout video</summary>
+
+![Watch Live page responsive layout video](https://paulio11.github.io/project-1/documentation/XXXXXXXX)
+
+</details><br>
+
 _**[Contact Me](https://paulio11.github.io/project-1/contact-me.html)**_
+
+The contact page has a form the user can use to get in touch with Kyle, and a paragraph. They appear side by side at larger screen widths and a single column at lower screen widths.
+- The paragraph has brief instructions for the user, using bold text where necessary, and a note explaining the *asterix found in the form.
+- The red asterix is a `<span>` with a class styled `color: red;`. This is displayed within a `required` input's `<label>` element.
+- The form is made up of three self explanitory inputs. Name, email, and the message itself - all required. A subject field with a choice of three radios. Two buttons styled to match, one for clearning the form, the other to send the message. Finally a file input used to select and upload an image/video for a user wanting to submit art.
+- The lable for the file input has been styled to look like a button in order to fit in the with style of the form, to achieve this I had to hide the button itself.
+
+
+<details>
+<summary>Contact Me page responsive layout video</summary>
+
+![Contact Me page responsive layout video](https://paulio11.github.io/project-1/documentation/XXXXXXXX)
+
+</details><br>
+
+_**[Error page 404 - Page not found](https://paulio11.github.io/project-1/404.html)**_
+
+Just in case the user tries to visit a url that does not exist this 404 error page is displayed. It has the same basic structure as the other pages, header, title, footer etc - but the main body is just a simple error message and a **go back** button so the user can return to where they were.
+
+_**[Error page 500 - Internal server error](https://paulio11.github.io/project-1/500.html)**_
+
+Same as the 404 page besides the heading and text to let the user know there has been a server error.
+
+### Unimplimended Features
+
+If I had more time I would have loved to have implemendted the following:
+- A contact form feedback page instead of just directing to the Code Institute form dump.
