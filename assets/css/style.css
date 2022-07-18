@@ -627,14 +627,14 @@ input[type=file] {
     visibility: hidden;
 }
 
-.custom-upload-button {
+.upload-button {
     border: 1px solid white;
     display: inline-block;
     padding: 6px 12px;
     cursor: pointer;
 }
 
-.custom-upload-button:hover {
+.upload-button:hover {
     background-color: #2d0c5e;
 }
 
@@ -662,4 +662,10 @@ input[type=file] {
         grid-area: form;
     }
 
+}
+
+/* error pages */
+
+.error-text {
+    text-align: center;
 }

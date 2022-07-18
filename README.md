@@ -193,7 +193,7 @@ The contact page has a form the user can use to get in touch with Kyle, and a pa
 
 _**[Error page 404 - Page not found](https://paulio11.github.io/project-1/404.html)**_
 
-Just in case the user tries to visit a url that does not exist this 404 error page is displayed. It has the same basic structure as the other pages, header, title, footer etc - but the main body is just a simple error message and a **go back** button so the user can return to where they were.
+Just in case the user tries to visit a url that does not exist this 404 error page is displayed. It has the same basic structure as the other pages, header, title, footer etc - but the main body is just a simple error message and a javascript **go back** link so the user can return to where they were.
 
 _**[Error page 500 - Internal server error](https://paulio11.github.io/project-1/500.html)**_
 
