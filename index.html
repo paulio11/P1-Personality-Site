@@ -75,6 +75,7 @@
 						YouTube playlist</a>.</p>
 			</div>
 			<div class="latest-episode">
+				<!-- responsive container div for youtube video -->
 				<div class="embed-container">
 					<iframe src="https://www.youtube.com/embed/mZvdVstgF7M" allowfullscreen
 						title="Delayed Input - Latest Episode"></iframe>
@@ -358,10 +359,10 @@
 	<!-- font awesome script for icons -->
 	<script src="https://kit.fontawesome.com/9446ef5fe5.js" crossorigin="anonymous"></script>
 	<!-- scroll to top button, script from w3 schools -->
-	<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+	<button onclick="topFunction()" id="top-button" title="Go to top">Top</button>
 	<script>
 		//Get the button:
-		mybutton = document.getElementById("myBtn");
+		mybutton = document.getElementById("top-button");
 
 		// When the user scrolls down 20px from the top of the document, show the button
 		window.onscroll = function () {
