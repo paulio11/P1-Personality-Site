@@ -206,21 +206,63 @@ If I had more time I would have loved to have implemented the following:
 
 ### Main Languages Used
 - [HTML5](https://en.wikipedia.org/wiki/HTML5)
-- [CSS3](https://en.wikipedia.org/wiki/CSS) - You can see my stylesheet [here](https://github.com/paulio11/project-1/blob/main/assets/css/style.css).
+- [CSS3](https://en.wikipedia.org/wiki/CSS)
+    - You can see my style sheet [here](https://github.com/paulio11/project-1/blob/main/assets/css/style.css).
 
 ### Other
 - [Google Fonts](https://fonts.google.com/)
+    - Fonts were imported from Google Fonts, see Typography section of readme above.
 - [Font Awesome](https://fontawesome.com/)
+    - Social and other icons used in my project taken from Font Awesome.
 - [GitHub](https://github.com/)
+    - Used to store files, changes, and host the page.
 - [GitPod](https://www.gitpod.io/)
+    - Used to write, comment code, and commit to GitHub.
 - [Balsamiq](https://balsamiq.com/)
+    - Used to plan the layout of the pages before development.
 - [Code Institute Student Template](https://github.com/Code-Institute-Org/gitpod-full-template)
+    - Used as the basis of the project, helped to set up GitPod workspace.
 - [Affinity Photo](https://affinity.serif.com/en-gb/photo/)
+    - Used to edit images, resizing and optimizing them for use on a website.
 - [Veed.io](https://www.veed.io/convert/video-converter)
+    - Used to convert videos into the more web-friendly .webm format.
+- [Am I Responsive](https://ui.dev/amiresponsive)
+    - Used to create the hero image at the top of this readme.
+- [Free Formatter](https://www.freeformatter.com/html-formatter.html)
+    - Recommended by my mentor and used to format my code before project submission.
+- [W3C Markup Validation Service](https://validator.w3.org)
+    - Used to validate HTML code.
+- [Jigsaw CSS Validation Service](https://jigsaw.w3.org/css-validator/)
+    - Used to validate CSS code.
 
 ## Testing
 
 ## Deployment
 
-## Credits
+Project written and developed in GitPod, which was then used to commit changes and push to GitHub. The site is then hosted using GitHub Pages.
 
+## Credits and Acknowledgements 
+
+### Text
+
+Some of the text used was taken from the [Delayed Input Patreon page](https://www.patreon.com/DelayedInput).
+
+### Images and Video
+
+- Video game cover art belongs to their respective publishers.
+- Highlights video edited by [Dominic Barlow](https://www.youtube.com/watch?v=banqV5VvL00).
+- Delayed Input episode written and edited by Kyle Bosman.
+- Icons from [Font Awesome](https://fontawesome.com).
+- Fonts from [Google Fonts](https://fonts.google.com/).
+
+### Code
+
+- HTML/CSS used to make an embedded YouTube iframe responsive is based on [this code from Avex](https://avexdesigns.com/blog/responsive-youtube-embed).
+- HTML/CSS used to make an embedded Twitch stream and chat responsive is based on [this code from Phil Nash](https://avexdesigns.com/blog/responsive-youtube-embed).
+- Javascript used to make the *back to top* button is based on [this code from W3 Schools](https://www.w3schools.com/howto/howto_js_scroll_to_top.asp).
+
+### Acknowledgements
+
+I would like to thank my mentor Oluwaseun Owonikoko(https://github.com/seunkoko) and community executive [Lane-Sawyer Thompson](https://github.com/LaneSawyerT) for their help and suggestions throughout the project.
+
+I would also like to thank fellow CI student [Rebecca Rayner](https://github.com/Irishbecky91). Her excellent project readme was the basis of my own readme's structure.
