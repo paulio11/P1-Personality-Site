@@ -132,14 +132,26 @@ _**[Home Page](https://paulio11.github.io/project-1)**_
 
 The home page is split into four sections, reachable by either scrolling down the page or using the navigation links in the header. The content is displayed as a single column on smaller devices but changes to `display: grid;` at higher screen widths.
 - _Introduction_ - A column with the title, brief introduction text explaining who Kyle is, and a `<video>` showing highlights. Changes to a grid to show content better at larger widths. Title on top, paragraph and video side by side.
+
+![Introduction screenshot](https://paulio11.github.io/project-1/documentation/intro-screenshot.png)
+
 - _Delayed Input_ - Similar in structure to the introduction section, showing an embedded YouTube video in a single column and smaller screen widths, changing to a grid at larger screen widths.
+
+![Delayed Input screenshot](https://paulio11.github.io/project-1/documentation/di-screenshot.png)
+
 - _My Schedule_ - A `display: flex;` div showing cards for each day that Kyle does something. Four cards in total displaying as a column, then a 2x2 arrangement, up to a 1x4 line at larger screen widths. To avoid an unpleasant looking line of 3 cards then a line with a single card at widths between where 2x2 and 1x4 work I used a `@media` query to change the flex direction - see video below.
+
+![My Schedule screenshot](https://paulio11.github.io/project-1/documentation/schedule-screenshot.png)
+
 - _Games I've Played_ - My most complex section. Starting as a single column of four games Kyle has recently played. Showing off game box art, a title with links to YouTube, and a table underneath giving those games a fake score along with the date the game was played. All styled to look like a single cohesive card. At larger screen widths this changes to a 2x2 arrangement, then a 3x2 showing more cards than before, then finally a grid showing a row with a paragraph and 3 games, followed by another row with 5 games - again showing more than before. This was achieved using a combination of hiding larger elements with `display: none;` and targeting and hiding specific children using:
     ```
     #game-list-1 .game-card:nth-of-type(n+5) {
         display: none;
     }
     ```
+
+![Games I've Played screenshot](https://paulio11.github.io/project-1/documentation/games-screenshot.png)
+
 - A javascript back to top button.
 
 <details>
@@ -152,6 +164,8 @@ The home page is split into four sections, reachable by either scrolling down th
 _**[Watch Live](https://paulio11.github.io/project-1/watch-live.html)**_
 
 This is where visitors to the website can go to watch Kyle if he is live, or take part in his Twitch chat. The main content of this page is two `<iframe>` elements. Displaying side by side at larger screen widths and above and below each other at smaller screen widths. The code used to make this layout responsive was based on code by [Phil Nash](https://philna.sh/blog/2020/03/23/responsive-twitch-embed/).
+
+![Watch Live screenshot](https://paulio11.github.io/project-1/documentation/watch-screenshot.png)
 
 <details>
 <summary>Watch Live page responsive layout video</summary>
@@ -168,6 +182,7 @@ The contact page has a form the user can use to get in touch with Kyle, and a pa
 - The form is made up of three self explanatory inputs. Name, email, and the message itself - all required. A subject field with a choice of three radios. Two buttons styled to match, one for clearing the form, the other to send the message. Finally a file input used to select and upload an image/video for a user wanting to submit art.
 - The label for the file input has been styled to look like a button in order to fit in the with style of the form, to achieve this I had to hide the button itself.
 
+![Contact Me screenshot](https://paulio11.github.io/project-1/documentation/contact-screenshot.png)
 
 <details>
 <summary>Contact Me page responsive layout video</summary>
@@ -263,6 +278,6 @@ Some of the text used was taken from the [Delayed Input Patreon page](https://ww
 
 ### Acknowledgements
 
-I would like to thank my mentor Oluwaseun Owonikoko(https://github.com/seunkoko) and community executive [Lane-Sawyer Thompson](https://github.com/LaneSawyerT) for their help and suggestions throughout the project.
+I would like to thank my mentor [Oluwaseun Owonikoko](https://github.com/seunkoko) and community executive [Lane-Sawyer Thompson](https://github.com/LaneSawyerT) for their help and suggestions throughout the project.
 
 I would also like to thank fellow CI student [Rebecca Rayner](https://github.com/Irishbecky91). Her excellent project readme was the basis of my own readme's structure.
