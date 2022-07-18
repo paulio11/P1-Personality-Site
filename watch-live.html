@@ -14,23 +14,26 @@
 </head>
 
 <body>
+  <header>
+    <!-- main navigation menu -->
+    <nav>
+      <ul id="nav-menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html#delayed-input">Delayed Input</a></li>
+        <li><a href="index.html#my-schedule">My Schedule</a></li>
+        <li><a href="index.html#games-ive-streamed">Games I've Streamed</a></li>
+        <!-- current page highlighted with class -->
+        <li><a href="watch-live.html" class="active-nav-menu-item">Watch Live</a></li>
+        <li><a href="contact-me.html">Contact Me</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- this div keeps the footer at the bottom of the page regardless of height -->
   <div id="main-content">
-    <header>
-      <nav>
-        <ul id="nav-menu">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="index.html#delayed-input">Delayed Input</a></li>
-          <li><a href="index.html#my-schedule">My Schedule</a></li>
-          <li><a href="index.html#games-ive-streamed">Games I've Streamed</a></li>
-          <li><a href="watch-live.html" class="active-nav-menu-item">Watch Live</a></li>
-          <li><a href="contact-me.html">Contact Me</a></li>
-        </ul>
-      </nav>
-    </header>
     <h1>Watch Live!</h1>
-    <!-- https://philna.sh/blog/2020/03/23/responsive-twitch-embed/ -->
     <p>When I'm live on Twitch you can watch me below. If I'm not you check out <a href="index.html#my-schedule">my
         schedule</a>. Whether I'm am or not you can still join in on the fun with chat.</p>
+    <!-- responsive twitch layout from https://philna.sh/blog/2020/03/23/responsive-twitch-embed/ -->
     <div class="twitch">
       <div class="twitch-video">
         <iframe src="https://player.twitch.tv/?channel=kylebosman&parent=paulio11.github.io&autoplay=false"
@@ -48,6 +51,7 @@
   </div>
   <footer>
     <p class="copywrite-text">© Kyle Bosman 2022</p>
+    <!-- social links menu -->
     <ul id="social-menu">
       <li><i class="fa-brands fa-patreon"></i> <a href="https://www.patreon.com/DelayedInput" target="_blank"
           aria-label="Go to my Patreon page (opens in a new tab)">Patreon</a></li>
