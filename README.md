@@ -23,6 +23,7 @@
     2. [Other](#other)
 8. [Testing](#testing)
 9. [Deployment](#deployment)
+    1. [Deploying on GitHub Pages](#Deploying-on-GitHub-Pages)
 10. [Credits and Acknowledgements](#credits-and-acknowledgements)
     1. [Text](#text)
     2. [Images and Video](#images-and-video-1)
@@ -179,25 +180,11 @@ The home page is split into four sections, reachable by either scrolling down th
 
 - A javascript back to top button.
 
-<details>
-<summary>Home page responsive layout video</summary>
-
-<img src="https://paulio11.github.io/project-1/documentation/responsive-index.gif">
-
-</details><br>
-
 _**[Watch Live](https://paulio11.github.io/project-1/watch-live.html)**_
 
 This is where visitors to the website can go to watch Kyle if he is live, or take part in his Twitch chat. The main content of this page is two `<iframe>` elements. Displaying side by side at larger screen widths and above and below each other at smaller screen widths. The code used to make this layout responsive was based on code by [Phil Nash](https://philna.sh/blog/2020/03/23/responsive-twitch-embed/).
 
 ![Watch Live screenshot](https://paulio11.github.io/project-1/documentation/watch-screenshot.png)
-
-<details>
-<summary>Watch Live page responsive layout video</summary>
-
-<img src="https://paulio11.github.io/project-1/documentation/responsive-watchlive.gif">
-
-</details><br>
 
 _**[Contact Me](https://paulio11.github.io/project-1/contact-me.html)**_
 
@@ -208,13 +195,6 @@ The contact page has a form the user can use to get in touch with Kyle, and a pa
 - The label for the file input has been styled to look like a button in order to fit in the with style of the form, to achieve this I had to hide the button itself.
 
 ![Contact Me screenshot](https://paulio11.github.io/project-1/documentation/contact-screenshot.png)
-
-<details>
-<summary>Contact Me page responsive layout video</summary>
-
-<img src="https://paulio11.github.io/project-1/documentation/responsive-contactme.gif">
-
-</details><br>
 
 _**[Error page 404 - Page not found](https://paulio11.github.io/project-1/404.html)**_
 
@@ -282,6 +262,18 @@ All my testing is documented [here](TESTING.md).
 ## Deployment
 
 Project written and developed in GitPod, which was then used to commit changes and push to GitHub. The site is then hosted using GitHub Pages.
+
+### Deploying on GitHub Pages
+
+To deploy this page to GitHub Pages from its GitHub repository, the following steps were taken:
+
+1. Log into [GitHub](https://github.com/login "Link to GitHub login page") or [create an account](https://github.com/join "Link to GitHub create account page").
+2. Locate the [GitHub Repository](https://github.com/Irishbecky91/survival-guild "Link to GitHub Repo").
+3. At the top of the repository, select Settings from the menu items.
+4. Scroll down the Settings page to the "Pages" section.
+5. Under "Source" click the drop-down menu labelled "None" and select "Main".
+6. Upon selection, the page will automatically refresh meaning that the website is now deployed.
+7. Scroll back down to the "Pages" section to retrieve the deployed link.
 
 ## Credits and Acknowledgements 
 
