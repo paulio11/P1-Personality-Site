@@ -182,7 +182,7 @@ The home page is split into four sections, reachable by either scrolling down th
 <details>
 <summary>Home page responsive layout video</summary>
 
-![Home page responsive layout video](https://paulio11.github.io/project-1/documentation/responsive-index.gif)
+<img src="https://paulio11.github.io/project-1/documentation/responsive-index.gif">
 
 </details><br>
 
@@ -195,7 +195,7 @@ This is where visitors to the website can go to watch Kyle if he is live, or tak
 <details>
 <summary>Watch Live page responsive layout video</summary>
 
-![Watch Live page responsive layout video](https://paulio11.github.io/project-1/documentation/responsive-watchlive.gif)
+<img src="https://paulio11.github.io/project-1/documentation/responsive-watchlive.gif">
 
 </details><br>
 
@@ -212,7 +212,7 @@ The contact page has a form the user can use to get in touch with Kyle, and a pa
 <details>
 <summary>Contact Me page responsive layout video</summary>
 
-![Contact Me page responsive layout video](https://paulio11.github.io/project-1/documentation/responsive-contactme.gif)
+<img src="https://paulio11.github.io/project-1/documentation/responsive-contactme.gif">
 
 </details><br>
 
