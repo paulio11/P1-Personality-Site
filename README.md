@@ -277,6 +277,8 @@ If I had more time I would have loved to have implemented the following:
 
 ## Testing
 
+All my testing is documented [here](TESTING.md).
+
 ## Deployment
 
 Project written and developed in GitPod, which was then used to commit changes and push to GitHub. The site is then hosted using GitHub Pages.
