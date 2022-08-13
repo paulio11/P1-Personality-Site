@@ -92,7 +92,7 @@ a:hover {
     color: #6e3db8;
 }
 
-/* return to top button */
+/* return to top button - from w3 schools, styled to match website */
 
 #top-button {
     display: none;
@@ -203,7 +203,7 @@ video {
 .embed-container {
     position: relative;
     padding-bottom: 56.25%;
-    /* required for responsive 16:9 video */
+    /* padding required for responsive 16:9 video */
     /* from: https://avexdesigns.com/blog/responsive-youtube-embed */
     height: 0;
     overflow: hidden;
@@ -519,7 +519,7 @@ footer i {
 
 .twitch .twitch-video {
     padding-top: 56.25%;
-    /* required for responsive 16:9 video */
+    /* padding required for responsive 16:9 video */
     /* from: https://philna.sh/blog/2020/03/23/responsive-twitch-embed/ */
     position: relative;
     height: 0;
