@@ -5,7 +5,7 @@
 
 ## Manual Testing
 
-Manual testing shown in the following youtube video.
+Manual testing demonstrated in the following youtube video.
 
 | Test | Timestamp |
 | ----------- | ----------- |
@@ -17,7 +17,7 @@ Manual testing shown in the following youtube video.
 | watch-live.html footer links | x |
 | watch-live.html responsive layout | x |
 | contact-me.html navigation links | x |
-| contact-me.html footer links | x |
+| contact-me.html footer links | x | 
 | contact-me.html responsive layout | x |
 | contact-me.html clear form | x |
 | contact-me.html submit form | x |
@@ -26,9 +26,21 @@ Manual testing shown in the following youtube video.
 
 ## Automated Testing
 
-### WC3 Validator
+### HTML Testing
 
-### CSS Validation
+All html files were tested using the [W3C Markup Validation Service](https://validator.w3.org/).
+
+| Page | Testing Result |
+| ----------- | ----------- |
+| index.html | [Screenshot](https://paulio11.github.io/project-1/documentation/validation-index.jpg) |
+| watch-live.html | [Screenshot](https://paulio11.github.io/project-1/documentation/validation-watchlive.jpg) |
+| contact-me.html | [Screenshot](https://paulio11.github.io/project-1/documentation/validation-contactme.jpg) |
+| 404.html | [Screenshot](https://paulio11.github.io/project-1/documentation/validation-404.jpg) |
+| 500.html | [Screenshot](https://paulio11.github.io/project-1/documentation/validation-500.jpg) |
+
+### CSS Testing
+
+My CSS file was tested using the [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/). You can see [the results here](https://paulio11.github.io/project-1/documentation/validation-css.jpg).
 
 ## Browser Testing
 
