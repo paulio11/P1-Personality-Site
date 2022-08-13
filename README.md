@@ -261,7 +261,7 @@ All my testing is documented [here](TESTING.md).
 
 ## Deployment
 
-Project written and developed in GitPod, which was then used to commit changes and push to GitHub. The site is then hosted using GitHub Pages.
+Project written and developed in GitPod, which was then used to commit changes and push to GitHub. The site is then hosted using GitHub Pages. 
 
 ### Deployment Procedure
 
@@ -274,6 +274,8 @@ To deploy this page to GitHub Pages from its GitHub repository, the following st
 5. Under "Source" click the drop-down menu labelled "None" and select "Main".
 6. Upon selection, the page will automatically refresh meaning that the website is now deployed.
 7. Scroll back down to the "Pages" section to retrieve the deployed link.
+
+**Note:** if this website is hosted elsewhere - the head link to the stylesheet will need to be manually changed to correctly style the error pages 404.html and 500.html.
 
 ## Credits and Acknowledgements 
 
