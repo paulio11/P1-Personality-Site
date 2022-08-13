@@ -54,5 +54,5 @@ All pages and links were tested on the following browsers:
 | ----------- | ----------- |
 | Google Chrome | [Screenshot](https://paulio11.github.io/project-1/documentation/screenshot-chrome.jpg) |
 | Microsoft Edge | [Screenshot](https://paulio11.github.io/project-1/documentation/screenshot-edge.jpg) |
-| Safari | [Screenshot](https://paulio11.github.io/project-1/documentation/screenshot-safari.jpg) |
-| Mobile Safari | [Screenshot](https://paulio11.github.io/project-1/documentation/screenshot-mobilesafari.jpg) |
+| Safari | [Screenshot](https://paulio11.github.io/project-1/documentation/screenshot-safari.png) |
+| Mobile Safari | [Screenshot](https://paulio11.github.io/project-1/documentation/screenshot-mobilesafari.png) |
