@@ -263,7 +263,7 @@ All my testing is documented [here](TESTING.md).
 
 Project written and developed in GitPod, which was then used to commit changes and push to GitHub. The site is then hosted using GitHub Pages.
 
-### Deploying on GitHub Pages
+### Deployment Procedure
 
 To deploy this page to GitHub Pages from its GitHub repository, the following steps were taken:
 
