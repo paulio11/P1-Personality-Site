@@ -270,7 +270,7 @@ Project written and developed in GitPod, which was then used to commit changes a
 To deploy this page to GitHub Pages from its GitHub repository, the following steps were taken:
 
 1. Log into [GitHub](https://github.com/login "Link to GitHub login page") or [create an account](https://github.com/join "Link to GitHub create account page").
-2. Locate the [GitHub Repository](https://github.com/Irishbecky91/survival-guild "Link to GitHub Repo").
+2. Locate the [GitHub Repository](https://github.com/paulio11/project-1 "Link to GitHub Repo").
 3. At the top of the repository, select Settings from the menu items.
 4. Scroll down the Settings page to the "Pages" section.
 5. Under "Source" click the drop-down menu labelled "None" and select "Main".
